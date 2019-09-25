@@ -1,0 +1,144 @@
+ID,Name,Summary,Parent ID,Parent Kay,Parent Sumamry,Project Key,Status,Assignee Name,DisplayName,Watchers
+13525,OAMF-160,3rd gen. test torpedoes - BLUE COLOR,13313,OAMF-14,Torpedoes & Droppers,OAMF,Coarse,alb433,Alvaro Borrell,alb433
+13524,OAMF-159,Ajax Mounting,13313,OAMF-14,Torpedoes & Droppers,OAMF,To Do,alb433,Alvaro Borrell,alb433
+13523,OAMF-158,Odysseus mounting,13313,OAMF-14,Torpedoes & Droppers,OAMF,Completed,alb433,Alvaro Borrell,alb433
+13522,OAMF-157,Sensor Boom Mounting (Odysseus 3),13311,OAMF-12,Sensor Boom,OAMF,Anodizing,bdj25,Bedros Janoyan,bdj25
+13520,OAMF-156,Odysseus_Frame_CrossAft_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13519,OAMF-155,Odysseus_Frame_CrossFore_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13517,OAMF-154,Sensor Boom Mounting Fixture Plate (Odysseus 3),13311,OAMF-12,Sensor Boom,OAMF,Anodizing,bdj25,Bedros Janoyan,bdj25
+13516,OAMF-153,Sensor Boom Mounting (Odysseus 2),13311,OAMF-12,Sensor Boom,OAMF,Anodizing,bdj25,Bedros Janoyan,bdj25
+13515,OAMF-152,Sensor Boom Mounting (Odysseus 1),13311,OAMF-12,Sensor Boom,OAMF,Anodizing,bdj25,Bedros Janoyan,bdj25
+13514,OAMF-151,Sensor Boom Mounting (Ajax),13311,OAMF-12,Sensor Boom,OAMF,Anodizing,zmr5,Zaeem Rana,bdj25
+13513,OAMF-150,Sensor Boom Endcap,13311,OAMF-12,Sensor Boom,OAMF,Anodizing,bz297,Bryan Zin,bdj25
+13512,OAMF-149,Sensor Boom Hull,13311,OAMF-12,Sensor Boom,OAMF,Anodizing,bdj25,Bedros Janoyan,bdj25
+13511,OAMF-148,Downcam Mount (x2),13306,OAMF-7,Odysseus Cameras,OAMF,Completed,zmr5,Zaeem Rana,mnm54
+13510,OAMF-147,Downcam Bracket,13306,OAMF-7,Odysseus Cameras,OAMF,Completed,mt779,Mrinal Thomas,mnm54
+13509,OAMF-146,Downcam Endcap,13306,OAMF-7,Odysseus Cameras,OAMF,Completed,csc254,Cuyler Crandall,mnm54
+13508,OAMF-145,Downcam Flange,13306,OAMF-7,Odysseus Cameras,OAMF,Completed,mnm54,Matthew Menis,mnm54
+13507,OAMF-144,Downcam Hull,13306,OAMF-7,Odysseus Cameras,OAMF,Completed,mnm54,Matthew Menis,mnm54
+13506,OAMF-143,Forecam Bracket,13306,OAMF-7,Odysseus Cameras,OAMF,Anodizing,bz297,Bryan Zin,mnm54
+13505,OAMF-142,Forecam Endcap,13306,OAMF-7,Odysseus Cameras,OAMF,Completed,mt779,Mrinal Thomas,mnm54
+13504,OAMF-141,Forecam Flange,13306,OAMF-7,Odysseus Cameras,OAMF,Completed,mnm54,Matthew Menis,mnm54
+13503,OAMF-140,Forecam Hull,13306,OAMF-7,Odysseus Cameras,OAMF,Completed,mnm54,Matthew Menis,mnm54
+13502,OAMF-139,Dropper_Launch_Tube_OA (4x),13313,OAMF-14,Torpedoes & Droppers,OAMF,Sanding,alb433,Alvaro Borrell,alb433
+13501,OAMF-138,Torpedo_Tube_Cap_OA (4x),13313,OAMF-14,Torpedoes & Droppers,OAMF,Sanding,bz297,Bryan Zin,alb433
+13500,OAMF-137,Torpedo_Launch_Tube_OA (4x),13313,OAMF-14,Torpedoes & Droppers,OAMF,Anodizing,bpm74,Brian McDonagh,alb433
+13435,OAMF-136,Test Torpedo Tube,13313,OAMF-14,Torpedoes & Droppers,OAMF,Completed,csc254,Cuyler Crandall,alb433
+13434,OAMF-135,Non-MechE,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,amv64,Anthony Viego,csc254
+13433,OAMF-134,Juliette,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,jb974,Juliette Bendheim,csc254
+13432,OAMF-133,Bedros,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,bdj25,Bedros Janoyan,csc254
+13431,OAMF-132,Brian,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,bpm74,Brian McDonagh,csc254
+13430,OAMF-131,Matthew M.,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,mnm54,Matthew Menis,csc254
+13429,OAMF-130,Lee,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,alb433,Alvaro Borrell,csc254
+13428,OAMF-129,Matthew B.,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,mb2343,Matthew Bedoya,csc254
+13427,OAMF-128,Zaeem,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,zmr5,Zaeem Rana,csc254
+13426,OAMF-127,Bryan,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,bz297,Bryan Zin,csc254
+13425,OAMF-126,Mrinal,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,mt779,Mrinal Thomas,csc254
+13424,OAMF-125,Emily,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,eay9,Emily Youtt,csc254
+13423,OAMF-124,Cora,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,cep89,Cora Peterson,csc254
+13422,OAMF-123,Cuyler,13421,OAMF-122,Sanding Hours (2019),OAMF,To Do,csc254,Cuyler Crandall,csc254
+13420,OAMF-121,Odysseus_Racks_ForeRacks_MountingPlate_OA,13304,OAMF-5,Odysseus Racks,OAMF,Sanding,mt779,Mrinal Thomas,jb974
+13419,OAMF-120,Hydrophones_Hull_AA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,ll543,Laura Lee,csc254
+13418,OAMF-119,Odysseus_Racks_AFtRacks_MountingPlate2 ,13304,OAMF-5,Odysseus Racks,OAMF,Sanding,mt779,Mrinal Thomas,jb974
+13417,OAMF-118,Odysseus_ValveEnclosure_TopHull_OA,13305,OAMF-6,Odysseus Valve Enclosure,OAMF,Anodizing,mt779,Mrinal Thomas,mt779
+13416,OAMF-117,Odysseus_ValveEnclosure_BottomHull_OA,13305,OAMF-6,Odysseus Valve Enclosure,OAMF,Anodizing,mt779,Mrinal Thomas,mt779
+13415,OAMF-116,Odysseus_KillSwitch_MagnetHolder_OA,13307,OAMF-8,Killswitch,OAMF,Drawing,mb2343,Matthew Bedoya,mb2343
+13414,OAMF-115,Odysseus_KillSwitch_MagnetHolder_OA,13307,OAMF-8,Killswitch,OAMF,Drawing,mb2343,Matthew Bedoya,mb2343
+13413,OAMF-114,Odysseus_KillSwitch_BoardMount_OA,13307,OAMF-8,Killswitch,OAMF,Drawing,mb2343,Matthew Bedoya,mb2343
+13412,OAMF-113,Odysseus_KillSwitch_AcrylicChamber_OA,13307,OAMF-8,Killswitch,OAMF,Drawing,mb2343,Matthew Bedoya,mb2343
+13411,OAMF-112,Odysseus_KillSwitch_GuideRail_OA,13307,OAMF-8,Killswitch,OAMF,Manufacturing,mb2343,Matthew Bedoya,mb2343
+13410,OAMF-111,Odysseus_KillSwitch_TopEndcap_OA,13307,OAMF-8,Killswitch,OAMF,Sanding,mb2343,Matthew Bedoya,mb2343
+13409,OAMF-110,Odysseus_KillSwitch_RailFastenerMirror_OA,13307,OAMF-8,Killswitch,OAMF,Sanding,bz297,Bryan Zin,mb2343
+13408,OAMF-109,Odysseus_KillSwitch_RailFastener_OA,13307,OAMF-8,Killswitch,OAMF,Sanding,mb2343,Matthew Bedoya,mb2343
+13407,OAMF-108,Odysseus_KillSwitch_MiniSubBracket_OA,13307,OAMF-8,Killswitch,OAMF,Sanding,mb2343,Matthew Bedoya,mb2343
+13406,OAMF-107,Odysseus_KillSwitch_MainSubBracket_OA,13307,OAMF-8,Killswitch,OAMF,Completed,mb2343,Matthew Bedoya,mb2343
+13405,OAMF-106,Odysseus_KillSwitch_HandleSpacer_OA,13307,OAMF-8,Killswitch,OAMF,Anodizing,mb2343,Matthew Bedoya,mb2343
+13404,OAMF-105,Odysseus_KillSwitch_HandleRod_OA,13307,OAMF-8,Killswitch,OAMF,Completed,mb2343,Matthew Bedoya,mb2343
+13403,OAMF-104,Odysseus_KillSwitch_FixturePlate_OA,13307,OAMF-8,Killswitch,OAMF,Completed,mb2343,Matthew Bedoya,mb2343
+13402,OAMF-103,Odysseus_KillSwitch_FaceSealEndCap_OA,13307,OAMF-8,Killswitch,OAMF,Completed,mb2343,Matthew Bedoya,mb2343
+13401,OAMF-102,Odysseus_KillSwitch_ClipMount_OA,13307,OAMF-8,Killswitch,OAMF,Completed,mb2343,Matthew Bedoya,mb2343
+13400,OAMF-101,Odysseus_KillSwitch_Endcap_OA,13307,OAMF-8,Killswitch,OAMF,Completed,mb2343,Matthew Bedoya,mb2343
+13399,OAMF-100,Odysseus_Racks_FixturePlate_OA,13304,OAMF-5,Odysseus Racks,OAMF,Completed,mt779,Mrinal Thomas,jb974
+13398,OAMF-99,odysseus_uhpv_aftendcap_oa,13303,OAMF-4,Odysseus UHPV,OAMF,Anodizing,cep89,Cora Peterson,cep89
+13397,OAMF-98,odysseus_uhpv_forendcap_oa,13303,OAMF-4,Odysseus UHPV,OAMF,Anodizing,cep89,Cora Peterson,cep89
+13396,OAMF-97,odysseus_uhpv_windowflange,13303,OAMF-4,Odysseus UHPV,OAMF,Anodizing,cep89,Cora Peterson,cep89
+13395,OAMF-96,odysseus_uphv_toppanel_oa,13303,OAMF-4,Odysseus UHPV,OAMF,Anodizing,cep89,Cora Peterson,cep89
+13394,OAMF-95,odysseus_uhpv_stbdseaconpanel_oa,13303,OAMF-4,Odysseus UHPV,OAMF,Anodizing,cep89,Cora Peterson,cep89
+13393,OAMF-94,odysseus_uhpv_portseaconpanel_oa,13303,OAMF-4,Odysseus UHPV,OAMF,Anodizing,cep89,Cora Peterson,cep89
+13392,OAMF-93,odysseus_uhpv_midcap_oa,13303,OAMF-4,Odysseus UHPV,OAMF,Anodizing,cep89,Cora Peterson,cep89
+13390,OAMF-91,Odysseus_uhpv_collar_OA x2,13303,OAMF-4,Odysseus UHPV,OAMF,Anodizing,cep89,Cora Peterson,cep89
+13389,OAMF-90,Ajax Frame Valve Enclosure Support Circle_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,eay9,Emily Youtt,eay9
+13388,OAMF-89,Ajax Frame Valve Enclosure Rod_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,eay9,Emily Youtt,eay9
+13387,OAMF-88,Ajax Frame Valve Enclosure Bungee Clamp_OA,13309,OAMF-10,Ajax Frame,OAMF,Completed,eay9,Emily Youtt,eay9
+13386,OAMF-87,Ajax Frame Valve Enclosure Adaptor Circle_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,eay9,Emily Youtt,eay9
+13385,OAMF-86,Ajax Frame Top Plate_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,eay9,Emily Youtt,eay9
+13384,OAMF-85,Ajax Frame Thruster Bracket_OA,13309,OAMF-10,Ajax Frame,OAMF,1000,eay9,Emily Youtt,eay9
+13383,OAMF-84,Ajax Frame Starboard Thruster Block_OA,13309,OAMF-10,Ajax Frame,OAMF,Sanding,mt779,Mrinal Thomas,eay9
+13382,OAMF-83,Ajax Frame Starboard Plate_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,eay9,Emily Youtt,eay9
+13381,OAMF-82,Ajax Frame Starboard Battery Side_OA,13309,OAMF-10,Ajax Frame,OAMF,Sanding,eay9,Emily Youtt,eay9
+13380,OAMF-81,Ajax Frame Right Angle Bracket_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,mt779,Mrinal Thomas,eay9
+13379,OAMF-80,Ajax Frame Port Battery Side_OA,13309,OAMF-10,Ajax Frame,OAMF,Sanding,eay9,Emily Youtt,eay9
+13378,OAMF-79,Ajax Frame Port  Plate_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,eay9,Emily Youtt,eay9
+13377,OAMF-78,Ajax Frame Hydrophones Side Plate_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,eay9,Emily Youtt,eay9
+13376,OAMF-77,Ajax Frame Hydrophones Bracket_OA,13309,OAMF-10,Ajax Frame,OAMF,Completed,eay9,Emily Youtt,eay9
+13375,OAMF-76,Ajax Frame Hydrophones Bracket 3_OA,13309,OAMF-10,Ajax Frame,OAMF,Completed,eay9,Emily Youtt,eay9
+13374,OAMF-75,Ajax Frame Hydrophones Bracket 2_OA,13309,OAMF-10,Ajax Frame,OAMF,Completed,eay9,Emily Youtt,eay9
+13373,OAMF-74,Ajax Frame Front Plate_OA,13309,OAMF-10,Ajax Frame,OAMF,Sanding,eay9,Emily Youtt,eay9
+13372,OAMF-73,Ajax Frame Front BattPod_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,eay9,Emily Youtt,eay9
+13371,OAMF-72,Ajax Frame Fore Thruster Blocks_OA,13309,OAMF-10,Ajax Frame,OAMF,Sanding,mt779,Mrinal Thomas,eay9
+13370,OAMF-71,Ajax Frame Foam Rod_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,eay9,Emily Youtt,eay9
+13369,OAMF-70,Ajax Frame Feet_OA,13309,OAMF-10,Ajax Frame,OAMF,Completed,eay9,Emily Youtt,eay9
+13368,OAMF-69,Odysseus_Racks_ForeRacks_StarSidebar_OA,13304,OAMF-5,Odysseus Racks,OAMF,Sanding,mt779,Mrinal Thomas,jb974
+13367,OAMF-68,Odysseus_Racks_ForeRacks_Spacer_OA x7,13304,OAMF-5,Odysseus Racks,OAMF,Manufacturing,csc254,Cuyler Crandall,jb974
+13366,OAMF-67,Odysseus_Racks_ForeRacks_SeaconBackplane_lock_OA,13304,OAMF-5,Odysseus Racks,OAMF,Sanding,zmr5,Zaeem Rana,jb974
+13365,OAMF-66,Odysseus_Racks_ForeRacks_PortSidebar_OA,13304,OAMF-5,Odysseus Racks,OAMF,Sanding,eay9,Emily Youtt,jb974
+13364,OAMF-65,Odysseus_Racks_ForeRacks_MidTower_OA,13304,OAMF-5,Odysseus Racks,OAMF,Anodizing,eay9,Emily Youtt,jb974
+13363,OAMF-64,Odysseus_Racks_ForeRacks_FrontBar_OA,13304,OAMF-5,Odysseus Racks,OAMF,Sanding,mt779,Mrinal Thomas,jb974
+13362,OAMF-63,Odysseus_Racks_ForeRacks_BackTower_OA,13304,OAMF-5,Odysseus Racks,OAMF,Sanding,mt779,Mrinal Thomas,jb974
+13361,OAMF-62,Odysseus_Racks_AftRacks_StarboardTruss_OA,13304,OAMF-5,Odysseus Racks,OAMF,Sanding,csc254,Cuyler Crandall,jb974
+13360,OAMF-61,Odysseus_Racks_AFtRacks_PortTruss_OA,13304,OAMF-5,Odysseus Racks,OAMF,Sanding,csc254,Cuyler Crandall,jb974
+13359,OAMF-60,Odysseus_Racks_AftRacks_MidTruss_OA,13304,OAMF-5,Odysseus Racks,OAMF,Anodizing,kan57,Kristina Nemeth,jb974
+13358,OAMF-59,Odysseus_Racks_AftRacks_JetsonMount_OA x4,13304,OAMF-5,Odysseus Racks,OAMF,Manufacturing,bpm74,Brian McDonagh,jb974
+13357,OAMF-58,Odysseus_Racks_AftRacks_FrontTruss_OA,13304,OAMF-5,Odysseus Racks,OAMF,Sanding,kan57,Kristina Nemeth,jb974
+13356,OAMF-57,AJAX_RACKS_UHPV_MOUNT_BAR2_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13355,OAMF-56,AJAX_RACKS_UHPV_MOUNT_BAR_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13354,OAMF-55,AJAX_RACKS_UHPV_MOUNT_BAR_DEPTH_SIDE_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13353,OAMF-54,AJAX_RACKS_TOWER2_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13352,OAMF-53,AJAX_RACKS_TOWER1_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13351,OAMF-52,AJAX_RACKS_THRUSTER MOUNT_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13350,OAMF-51,AJAX_RACKS_THRUSTER MOUNT_LEFT_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13349,OAMF-50,AJAX_RACKS_SEACON_MOUNT_TOWER_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13348,OAMF-49,AJAX_RACKS_JETSON_MOUNT2_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,alb433,Alvaro Borrell,zmr5
+13347,OAMF-48,AJAX_RACKS_JETSON_MOUNT_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13346,OAMF-47,AJAX_RACKS_BACKPLANE_MOUNT_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13345,OAMF-46,AJAX_RACKS_BACKPLANE_MOUNT_DEPTH_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13344,OAMF-45,AJAX_RACKS_BACKPLANE_ADAPTER_MOUNT_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13343,OAMF-44,AJAX_RACKS_BACKPLANE _FRONT_MOUNT2_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13342,OAMF-43,AJAX_RACKS_BACKPLANE _FRONT_MOUNT_OA,13310,OAMF-11,Ajax Racks,OAMF,Anodizing,zmr5,Zaeem Rana,zmr5
+13341,OAMF-42,Ajax_Valve_Enclosure_Lid_OA_2018,13308,OAMF-9,Ajax Valve Enclosure,OAMF,Anodizing,bz297,Bryan Zin,bz297
+13340,OAMF-41,Ajax_Valve_Enclosure_Bottom_Hull_OA_2018,13308,OAMF-9,Ajax Valve Enclosure,OAMF,Anodizing,bz297,Bryan Zin,bz297
+13339,OAMF-40,modified downcam endcap_OA,13309,OAMF-10,Ajax Frame,OAMF,Manufacturing,eay9,Emily Youtt,eay9
+13338,OAMF-39,Ajax Frame Aft Plate_OA,13309,OAMF-10,Ajax Frame,OAMF,Sanding,eay9,Emily Youtt,eay9
+13337,OAMF-38,Odysseus_Frame_HoldDownBrace_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13335,OAMF-36,Odysseus_Frame_ValveEnclosureMounting_Standoff_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13334,OAMF-35,Odysseus_Frame_SurgeWing_Wing_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13333,OAMF-34,Odysseus_Frame_HoldDownBlockStandoff_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13332,OAMF-33,Odysseus_Frame_SurgeWing_Standoff_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13331,OAMF-32,Odysseus_Frame_KillSwitchSwingBar_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13330,OAMF-31,Odysseus_Frame_HydrophonesMountingBlocks_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13329,OAMF-30,Odysseus_Frame_ForeSwaySwing_LatchBlock_OA (Latch Version),13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13328,OAMF-29,Odysseus_Frame_ForeSwaySwing_LatchBlock_OA (Ball Detent Version),13302,OAMF-3,Odysseus Frame,OAMF,Manufacturing,csc254,Cuyler Crandall,csc254
+13327,OAMF-28,Odysseus_Frame_ForeSwaySwing_Hinge_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13326,OAMF-27,Odysseus_Frame_ForeSwarSwing_Bar_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13325,OAMF-26,Odysseus_Frame_Foot_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13324,OAMF-25,Odysseus_Frame_DepthBlocks_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13323,OAMF-24,Odysseus_Frame_TopPlate_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13322,OAMF-23,Odysseus_Frame_HandleMountingBlocks_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13321,OAMF-22,Odysseus_Frame_ForeSB_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13320,OAMF-21,Odysseus_Frame_ForePort_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13319,OAMF-20,Odysseus_Frame_DVLSupPort_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13318,OAMF-19,Odysseus_Frame_DVLMount,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13317,OAMF-18,Odysseus_Frame_CrossTwo_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13316,OAMF-17,Odysseus_Frame_CrossOne_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13315,OAMF-16,Odysseus_Frame_CenterPort_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254
+13314,OAMF-15,Odysseus_Frame_1inGusset_OA,13302,OAMF-3,Odysseus Frame,OAMF,Completed,csc254,Cuyler Crandall,csc254

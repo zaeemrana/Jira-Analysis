@@ -1,0 +1,1140 @@
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@e4ba44c[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5ead3906[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@660402d5[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@255eff49[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@76e4566a[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@41b624b9[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@7e284f0[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@559487f2[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@117dc2c[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@71f4b35b[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@62a26c91[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@13f8dc20[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@2c3184cf[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@4a5ee9ba[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@28ff83f8[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@16fd790a[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@1154e585[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@2c7add2c[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@78ce6b18[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@5866822[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@33c8cdda[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@4921f532[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@423cd1a5[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@744d66b8[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@11ec3f6[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@47502e82[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@6f35107f[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@24c46a01[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@510cebb5[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5ffd33d[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@420e9d15[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@459d7337[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@737a7972[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@8672a1b[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@3e37f837[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@101d200d[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@300c6a95[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@10aa97d[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@fd1f2b[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@253c6ebe[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@30b234f8[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@76b22d8a[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@21f7547a[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@67f88764[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@46cc6a97[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@2175c1b9[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3aba1569[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@19da66fd[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3c672f83[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@339059bf[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@59eb03f9[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@13cc7bb7[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@763c87de[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@75bcf9f5[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@1dae1c8d[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@765631e1[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@64465a82[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@76a764ae[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@1b805483[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5c1eb72b[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@a5a6460[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4795e391[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@5ea893ac[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@77a6c0bd[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@2e86d34d[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@7b43e299[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3aa8d617[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@3cb94938[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@646999a8[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@dae896[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7c3e8ef4[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@ab8f8c2[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@223484e4[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@75fd466c[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7d3c2f09[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@308fa684[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@361a17d5[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@294be95c[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@5be96d14[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7f4eee1a[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@671e7f4f[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@59a17aa4[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@49b02d49[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4186245b[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@55f6cf23[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@750fb63[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@4f4244a5[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3f9605ea[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@5c7a4aec[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5c7139e3[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@1cb39a4[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@5734c5f8[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@47429065[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@2134ea4[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@70c98f26[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@1a38fc2[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5231e62b[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@4a4ff4a7[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7643e277[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@6b03aee2[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@365e0d17[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@3013db7[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@6a3837fa[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@1cbaf0e1[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@7a6988c4[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@31f85c47[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@7d69cc7b[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@c2a52c7[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@3a33d42e[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@495aad4b[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@7ae3ba0f[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@240173fe[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@3751f4[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@1c9b944c[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@7b4f7612[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@547e6406[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@6e7c378c[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@33b9f332[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@1035be42[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@2a8797b1[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@53687219[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@2f343b25[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@12ce572f[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@4e270d8[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@140a32e7[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@1a69ce50[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7a7e851d[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@6d0d4e3a[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@28d5c476[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@7c1a8472[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@35970d09[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7df81e22[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@51a0d4c3[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7a025f0b[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@77f0fa07[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4ac4e3d5[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@1d953082[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7587de3c[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@5d73249[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@68e0a36d[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@5cc58fd3[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@17f8dc49[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@2b01f185[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@158a8261[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4380c8b0[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@1ea362fa[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4d17218c[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@ccf2bc5[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@49cfb7a4[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@4cfeb8d5[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3891fb87[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@4df57e53[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@79b392de[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@40b2b52d[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@77c8337f[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@1129dc33[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@cf2d697[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@717e971c[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@6a797be4[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@56c17a04[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@4c9d4825[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@49dee0dd[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@68591459[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3595520c[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@136ff8fb[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@2d093a43[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@d521867[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@12483ef3[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@7e0ca461[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@5c44a906[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@372ccfa7[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@6915d54e[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@606be00c[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@191e699e[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@489edced[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@fe6cf15[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@30323565[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@5a0af864[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@64cd3e7c[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@5deadb97[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7cd25452[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@71165a74[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@378acdc5[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@18a0095b[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@3a671592[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@6f17df6d[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@e92d3af[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@16e0e9f7[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@1429b53c[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4514fc63[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@5d8350c5[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@4cbdb5d3[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@15e4692d[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@77f16816[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@30331b55[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@789d2de8[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@51fec6eb[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@7dc201dd[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@43b7ba45[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@52542db6[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@75ba7089[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@181b5b0a[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@6680afde[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@154a1725[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@33d2133d[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@71d3cd46[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@12ce62fd[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@5778bcbe[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@3f56bfca[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@d23a02a[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@9a895d3[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@72bc6a4e[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@789e333c[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@68aceef5[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@2567e83e[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@349808c6[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@3d16caba[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@32c250ab[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@287e68d5[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5cd49b24[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@571cd91e[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@76fe5583[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@90968b6[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@33725fbc[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@22915a3a[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@26c741a6[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@6449d110[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@4567fd9a[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@6d8f3f86[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@715999e0[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5b32178a[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@21c3ba5b[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3524c2ea[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@88fdb37[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}
+Field: issuetype Value: {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10003', 'id': '10003', 'description': 'The sub-task of the issue', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype', 'name': 'Sub-task', 'subtask': True, 'avatarId': 10316}
+Field: parent Value: {'id': '13302', 'key': 'OAMF-3', 'self': 'http://jira.cuauv.org/rest/api/2/issue/13302', 'fields': {'summary': 'Odysseus Frame', 'status': {'self': 'http://jira.cuauv.org/rest/api/2/status/10000', 'description': 'Work has yet to be started.', 'iconUrl': 'http://jira.cuauv.org/', 'name': 'To Do', 'id': '10000', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/2', 'id': 2, 'key': 'new', 'colorName': 'blue-gray', 'name': 'To Do'}}, 'priority': {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}, 'issuetype': {'self': 'http://jira.cuauv.org/rest/api/2/issuetype/10002', 'id': '10002', 'description': 'A task that needs to be done.', 'iconUrl': 'http://jira.cuauv.org/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype', 'name': 'Task', 'subtask': False, 'avatarId': 10318}}}
+Field: timespent Value: 7200
+Field: project Value: {'self': 'http://jira.cuauv.org/rest/api/2/project/10600', 'id': '10600', 'key': 'OAMF', 'name': 'Odysseus & Ajax Mechanical Fabrication', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/projectavatar?avatarId=10324', '24x24': 'http://jira.cuauv.org/secure/projectavatar?size=small&avatarId=10324', '16x16': 'http://jira.cuauv.org/secure/projectavatar?size=xsmall&avatarId=10324', '32x32': 'http://jira.cuauv.org/secure/projectavatar?size=medium&avatarId=10324'}}
+Field: fixVersions Value: []
+Field: aggregatetimespent Value: 7200
+Field: resolution Value: {'self': 'http://jira.cuauv.org/rest/api/2/resolution/10000', 'id': '10000', 'description': 'Work has been completed on this issue.', 'name': 'Done'}
+Field: customfield_10302 Value: None
+Field: customfield_10500 Value: None
+Field: customfield_10303 Value: 4.0
+Field: customfield_10501 Value: None
+Field: customfield_10700 Value: None
+Field: customfield_10502 Value: None
+Field: customfield_10701 Value: None
+Field: customfield_10305 Value: None
+Field: customfield_10702 Value: None
+Field: customfield_10307 Value: None
+Field: customfield_10703 Value: None
+Field: customfield_10704 Value: None
+Field: resolutiondate Value: 2019-01-12T12:35:50.000+0000
+Field: customfield_10705 Value: None
+Field: customfield_10706 Value: None
+Field: workratio Value: 50
+Field: lastViewed Value: None
+Field: watches Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/watchers', 'watchCount': 1, 'isWatching': False}
+Field: created Value: 2018-11-27T03:38:35.000+0000
+Field: priority Value: {'self': 'http://jira.cuauv.org/rest/api/2/priority/3', 'iconUrl': 'http://jira.cuauv.org/images/icons/priorities/medium.svg', 'name': 'Medium', 'id': '3'}
+Field: customfield_10100 Value: None
+Field: labels Value: ['Odysseus']
+Field: timeestimate Value: 0
+Field: aggregatetimeoriginalestimate Value: 14400
+Field: versions Value: []
+Field: issuelinks Value: []
+Field: assignee Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: updated Value: 2019-01-23T19:06:40.000+0000
+Field: status Value: {'self': 'http://jira.cuauv.org/rest/api/2/status/10304', 'description': 'The project is completed!', 'iconUrl': 'http://jira.cuauv.org/images/icons/statuses/generic.png', 'name': 'Completed', 'id': '10304', 'statusCategory': {'self': 'http://jira.cuauv.org/rest/api/2/statuscategory/3', 'id': 3, 'key': 'done', 'colorName': 'green', 'name': 'Done'}}
+Field: components Value: []
+Field: timeoriginalestimate Value: 14400
+Field: description Value: x6
+Field: customfield_10006 Value: None
+Field: customfield_10600 Value: None
+Field: customfield_10601 Value: ['Role: 10300 (null)', 'Role: 10301 (null)']
+Field: customfield_10602 Value: 
+Field: customfield_10009 Value: 0|i005zr:
+Field: aggregatetimeestimate Value: 0
+Field: summary Value: Odysseus_Frame_Foot_OA
+Field: creator Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: subtasks Value: []
+Field: reporter Value: {'self': 'http://jira.cuauv.org/rest/api/2/user?username=csc254', 'name': 'csc254', 'key': 'csc254', 'emailAddress': 'csc254@cornell.edu', 'avatarUrls': {'48x48': 'http://jira.cuauv.org/secure/useravatar?ownerId=csc254&avatarId=10803', '24x24': 'http://jira.cuauv.org/secure/useravatar?size=small&ownerId=csc254&avatarId=10803', '16x16': 'http://jira.cuauv.org/secure/useravatar?size=xsmall&ownerId=csc254&avatarId=10803', '32x32': 'http://jira.cuauv.org/secure/useravatar?size=medium&ownerId=csc254&avatarId=10803'}, 'displayName': 'Cuyler Crandall', 'active': True, 'timeZone': 'America/New_York'}
+Field: customfield_10000 Value: None
+Field: aggregateprogress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: customfield_10001 Value: None
+Field: customfield_10200 Value: None
+Field: customfield_10201 Value: None
+Field: customfield_10004 Value: None
+Field: customfield_10400 Value: {summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@689d11b1[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7dda24b2[overall=com.atlassian.jira.plugin.devstatus.summary.beans.PullRequestOverallBean@6f9be18e[stateCount=0,state=OPEN,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@76d4db78[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@76c44c8a[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@5a971954[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@6ab01419[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@3aef1d2c[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@6e9bb6e7[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@c245fd9[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@665e8298[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@249ae502[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@170543f8[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={"cachedValue":{"errors":[],"configErrors":[],"summary":{"pullrequest":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":"OPEN","open":true},"byInstanceType":{}},"build":{"overall":{"count":0,"lastUpdated":null,"failedBuildCount":0,"successfulBuildCount":0,"unknownBuildCount":0},"byInstanceType":{}},"review":{"overall":{"count":0,"lastUpdated":null,"stateCount":0,"state":null,"dueDate":null,"overDue":false,"completed":false},"byInstanceType":{}},"deployment-environment":{"overall":{"count":0,"lastUpdated":null,"topEnvironments":[],"showProjects":false,"successfulCount":0},"byInstanceType":{}},"repository":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}},"branch":{"overall":{"count":0,"lastUpdated":null},"byInstanceType":{}}}},"isStale":false}}
+Field: environment Value: None
+Field: duedate Value: None
+Field: progress Value: {'progress': 7200, 'total': 7200, 'percent': 100}
+Field: votes Value: {'self': 'http://jira.cuauv.org/rest/api/2/issue/OAMF-26/votes', 'votes': 0, 'hasVoted': False}

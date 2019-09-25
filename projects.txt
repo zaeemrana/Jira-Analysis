@@ -1,0 +1,8 @@
+[<JIRA Project: key='BUS', name='Business', id='10300'>, 
+ <JIRA Project: key='CPMF', name='Castor & Pollux Mechanical Fabrication', id='10500'>, 
+ <JIRA Project: key='ECE', name='Electrical', id='10100'>, 
+ <JIRA Project: key='IT', name='IT', id='10002'>, 
+ <JIRA Project: key='MECH2', name='Mech2', id='10400'>, 
+ <JIRA Project: key='MEC', name='Mechanical', id='10101'>, 
+ <JIRA Project: key='OAMF', name='Odysseus & Ajax Mechanical Fabrication', id='10600'>, 
+ <JIRA Project: key='SOF', name='Software', id='10001'>]
