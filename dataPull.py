@@ -75,7 +75,8 @@ def main():
             #print(e)
             #print("-------\n",issue, "\n-----")
             lstOfIssuesErrors.append(issue)
-
+    print(lstOfIssuesErrors)
+    
     gen_info_df = pd.DataFrame(general_df, columns = ['ID', 'Name', 'Summary', 'Parent ID', 'Parent Kay', 'Parent Sumamry', 'Project Key', 'Status', 'Assignee Name', 'DisplayName', 'Watchers'])
     gen_info_df.to_csv("generalIssue.csv" ,index = False)
 
