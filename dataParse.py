@@ -8,35 +8,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import seaborn as sns
-import datetime
+import datetime as dt
 from matplotlib.ticker import PercentFormatter
-
 sns.set()
 
 years = mdates.YearLocator()   # every year
 months = mdates.MonthLocator()  # every month
 years_fmt = mdates.DateFormatter('%Y')
-
-"""
-# format the ticks
-ax.xaxis.set_major_locator(years)
-ax.xaxis.set_major_formatter(years_fmt)
-ax.xaxis.set_minor_locator(months)
-
-# round to nearest years.
-datemin = np.datetime64(data['date'][0], 'Y')
-datemax = np.datetime64(data['date'][-1], 'Y') + np.timedelta64(1, 'Y')
-ax.set_xlim(datemin, datemax)
-
-# format the coords message box
-ax.format_xdata = mdates.DateFormatter('%Y-%m-%d')
-ax.format_ydata = lambda x: '$%1.2f' % x  # format the price.
-ax.grid(True)
-
-# rotates and right aligns the x labels, and moves the bottom of the
-# axes up to make room for them
-fig.autofmt_xdate()
-"""
 
 class weirdDateTime():
     def __init__(self, s):
@@ -130,10 +108,15 @@ def create_pareto_chart(values, name_of_val, index ):
     ax2.set_title("Pareto of "+name_of_val+" Contribution")
     plt.show()
 
-#create_pareto_chart(plot_sanding_vs_nonsanding[:,0], "machine", label_sanding_vs_nonsanding)
-#create_pareto_chart(plot_sanding_vs_nonsanding[:,1], "sanding", label_sanding_vs_nonsanding)
+create_pareto_chart(plot_sanding_vs_nonsanding[:,0], "machine", label_sanding_vs_nonsanding)
+create_pareto_chart(plot_sanding_vs_nonsanding[:,1], "sanding", label_sanding_vs_nonsanding)
 
 mem_to_machine_time = {}
+
+
+# Sort comments_df
+comments_df = comments_df.sort_values(by = "logged at")
+
 for index,row in comments_df.iterrows():
     if row["Name"] not in sanding:
         if row["Author"] not in mem_to_machine_time:
@@ -142,15 +125,28 @@ for index,row in comments_df.iterrows():
             temp = mem_to_machine_time[row["Author"]]
             temp.append( (mem_to_machine_time[row["Author"]][-1][0] + jiraHrs(row["time spent"]).getHrs(), row["logged at"] ) )
             mem_to_machine_time[row["Author"]] = temp
-
+        
 total_time_df = pd.DataFrame(mem_to_machine_time[list(members.keys())[0] ])
 
 for mem in list(members.keys())[1:]:
     total_time_df = pd.concat( [total_time_df, pd.DataFrame(mem_to_machine_time[mem])] , ignore_index=True, axis=1)
 total_time_df.columns = np.array([[x, x + " logged at"] for x in list(members.keys())]).flatten()
+
 total_time_df.to_csv("time_total.csv", index = False)
 
+fig, ax = plt.subplots(figsize = (12,8))
+for mem in members:
+    dates = [dt.datetime.strptime(dates_logged, "%Y-%m-%dT%H:%M:00.000+0000") for dates_logged in total_time_df[mem+" logged at"].dropna().values.tolist()]
+    date_for_mem = [mdates.date2num(date) for date in dates]
+    ax.plot(date_for_mem, total_time_df[mem].dropna().values.tolist(), '-o')
 
-plt.plot(total_time_df["zmr5 logged at"].dropna(), total_time_df["zmr5"].dropna())
+ax.legend(loc = "upper left", labels = list(members.keys()) )
+
+ax.set(xlabel="Date", ylabel="Cumalative Hrs",
+       title="Tracked hours over the year. Total: " + str(round(sum([total_time_df[mem].dropna().values.tolist()[-1] for mem in members]), 3)) )
+ax.xaxis.set_major_locator(mdates.WeekdayLocator(interval=2))
+ax.xaxis.set_major_formatter(mdates.DateFormatter("%m-%d-%y"))
+
+
 plt.show()
     
