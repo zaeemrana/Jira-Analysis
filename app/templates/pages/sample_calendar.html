@@ -1,0 +1,330 @@
+<div class="panel-header">
+    <div class="header text-center">
+        <h2 class="title">Sample Machining Calendar</h2>
+        <p class="category">Log when people are in the machine shop</a>
+        </p>
+    </div>
+</div>
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    Mechanical Machining Calendar
+                </div>
+                <div class="card-body">
+
+                    <form method="POST" action = "/mechanicalCal.html">
+                        <div class="row">
+                            <div class="columnCal">
+                                <h2>Timeslots</h2>
+                                {% for timeslot in timeslots %}
+                                    <div class="timeslotBox">
+                                        <h2>{{ timeslot.time }}</h2>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            <div class="columnCal">
+                                <h2>Sunday</h2>
+                                <br>
+
+                            </div>
+                            <div class="columnCal">
+                                <h2>Monday</h2>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 11">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 12">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 13">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 21">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 22">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 23">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 24">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 31">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 32">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 33">
+                                </div>
+                                <br>
+                            </div>
+                            <div class="columnCal">
+                                <h2>Tuesday</h2>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 11">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 12">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 13">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 21">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 22">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 23">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 24">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 31">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 32">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 33">
+                                </div>
+                                <br>
+                            </div>
+                            <div class="columnCal">
+                                <h2>Wednesday</h2>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 11">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 12">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 13">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 21">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 22">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 23">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 24">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 31">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 32">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 33">
+                                </div>
+                                <br>
+                            </div>
+                            <div class="columnCal">
+                                <h2>Thursday</h2>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 11">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 12">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 13">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 21">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 22">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 23">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 24">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 31">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 32">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 33">
+                                </div>
+                                <br>
+                            </div>
+                            <div class="columnCal">
+                                <h2>Friday</h2>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 11">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 12">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 13">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 21">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 22">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 23">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 24">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 31">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 32">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 33">
+                                </div>
+                                <br>
+
+                            </div>
+                            <div class="columnCal">
+                                <h2>Saturday</h2>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 11">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 12">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 13">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 21">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 22">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 23">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 24">
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 31">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 32">
+                                </div>
+                                <br>
+                                <div class="timeslotBox">
+                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 33">
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+
+                        <br>
+                        <p><input type = "submit" value = "Submit"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

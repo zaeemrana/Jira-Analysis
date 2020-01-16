@@ -1,0 +1,159 @@
+ID,Name,Summary,Parent ID,Parent Key,Parent Sumamry,Project Key,Status,Assignee Name,DisplayName,Watchers
+12070,MECH2-165,all of the HOLES,11725,MECH2-15,Artemis Frame,MECH2,To Do,svk28,Sanika Kulkarni,svk28
+12060,MECH2-164,Forecap Thermal Block_AA,11728,MECH2-18,Artemis Racks,MECH2,Sanding,jcw297,James Wu,jcw297
+12059,MECH2-163,PoE Mount_AA,11728,MECH2-18,Artemis Racks,MECH2,Sanding,jcw297,James Wu,jcw297
+12056,MECH2-162,Kevin Sanding,11855,MECH2-134,Sanding,MECH2,To Do,kzy2,Kevin Ying,kzy2
+11942,MECH2-161,Under Bar,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,Not Assigned,NA,jlf297
+11941,MECH2-160,Sway Thruster,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,Not Assigned,NA,jlf297
+11940,MECH2-159,Battery Piece,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,Not Assigned,NA,jlf297
+11939,MECH2-158,Handle Mount 2,11795,MECH2-84,Artemis Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,
+11938,MECH2-157,Guide,11731,MECH2-21,Active Ballast,MECH2,Sanding,jdb382,John Bartlett,jdb382
+11937,MECH2-156,Alternator head,11731,MECH2-21,Active Ballast,MECH2,Sanding,Not Assigned,NA,jdb382
+11936,MECH2-155,Body,11731,MECH2-21,Active Ballast,MECH2,Sanding,jdb382,John Bartlett,jdb382
+11875,MECH2-154,Patrick Sanding,11855,MECH2-134,Sanding,MECH2,To Do,pw349,Patrick Wang,ll543
+11874,MECH2-153,Tim Sanding,11855,MECH2-134,Sanding,MECH2,To Do,tmb233,Timothy Braren,ll543
+11873,MECH2-152,Dhruv Sanding,11855,MECH2-134,Sanding,MECH2,To Do,dg566,Dhruv Gaba,ll543
+11872,MECH2-151,Nick Sanding,11855,MECH2-134,Sanding,MECH2,To Do,nas256,Nicholas Sarkis,nas256
+11871,MECH2-150,Mark Sanding,11855,MECH2-134,Sanding,MECH2,To Do,mvb36,Mark Brancale,
+11870,MECH2-149,Zaibo Sanding,11855,MECH2-134,Sanding,MECH2,To Do,zw85,Zaibo Wang,
+11869,MECH2-148,Cuyler Sanding,11855,MECH2-134,Sanding,MECH2,To Do,csc254,Cuyler Crandall,
+11868,MECH2-147,John Sanding,11855,MECH2-134,Sanding,MECH2,Completed,jm2424,John Macdonald,jm2424
+11867,MECH2-146,Zander Sanding,11855,MECH2-134,Sanding,MECH2,Completed,asb322,Zander Bolgar,
+11866,MECH2-145,John Sanding,11855,MECH2-134,Sanding,MECH2,To Do,jdb382,John Bartlett,
+11864,MECH2-143,Eric Sanding,11855,MECH2-134,Sanding,MECH2,To Do,etc59,Eric Chiang,
+11863,MECH2-142,Sam Sanding,11855,MECH2-134,Sanding,MECH2,To Do,sjt85,Samuel Tome,
+11862,MECH2-141,Alan Sanding,11855,MECH2-134,Sanding,MECH2,To Do,aml326,Alan Lee,
+11861,MECH2-140,Jennifer Sanding,11855,MECH2-134,Sanding,MECH2,To Do,jlf297,Jennifer Fuhrer,
+11860,MECH2-139,Cora Sanding,11855,MECH2-134,Sanding,MECH2,Completed,cep89,Cora Peterson,
+11859,MECH2-138,Sanika Sanding,11855,MECH2-134,Sanding,MECH2,To Do,svk28,Sanika Kulkarni,
+11858,MECH2-137,Laura Sanding,11855,MECH2-134,Sanding,MECH2,To Do,ll543,Laura Lee,
+11857,MECH2-136,Joe Sanding,11855,MECH2-134,Sanding,MECH2,To Do,jgf82,Joseph Featherston,
+11856,MECH2-135,James Sanding,11855,MECH2-134,Sanding,MECH2,To Do,jcw297,James Wu,
+11855,MECH2-134,Sanding,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,To Do,Not Assigned,NA,
+11854,MECH2-133,Battery Standoff Mount,11725,MECH2-15,Artemis Frame,MECH2,Sanding,svk28,Sanika Kulkarni,svk28
+11853,MECH2-132,Battery pod mounts,11725,MECH2-15,Artemis Frame,MECH2,Sanding,svk28,Sanika Kulkarni,svk28
+11852,MECH2-131,Valve Enclosure Rod Mounts,11725,MECH2-15,Artemis Frame,MECH2,Manufacturing,svk28,Sanika Kulkarni,svk28
+11851,MECH2-130,Thruster Wing Caps,11725,MECH2-15,Artemis Frame,MECH2,Sanding,svk28,Sanika Kulkarni,svk28
+11850,MECH2-129,Thruster Wings,11725,MECH2-15,Artemis Frame,MECH2,Sanding,svk28,Sanika Kulkarni,svk28
+11849,MECH2-128,Thruster Wing Mounts,11725,MECH2-15,Artemis Frame,MECH2,Sanding,svk28,Sanika Kulkarni,svk28
+11848,MECH2-127,Dropper Mounts,11725,MECH2-15,Artemis Frame,MECH2,Anodizing,svk28,Sanika Kulkarni,svk28
+11847,MECH2-126,Down-cam Mounts,11725,MECH2-15,Artemis Frame,MECH2,Anodizing,svk28,Sanika Kulkarni,svk28
+11846,MECH2-125,Valve Bracket,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,jlf297,Jennifer Fuhrer,jlf297
+11845,MECH2-124,Hinge Rod Top,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,jlf297,Jennifer Fuhrer,jlf297
+11844,MECH2-123,Hinge Mount Right,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,jlf297,Jennifer Fuhrer,jlf297
+11843,MECH2-122,Hinge Mount Left,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,jlf297,Jennifer Fuhrer,jlf297
+11842,MECH2-121,Hinge Rod,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,jlf297,Jennifer Fuhrer,jlf297
+11841,MECH2-120,Sensor Boom Bracket,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,jlf297,Jennifer Fuhrer,jlf297
+11840,MECH2-119,Hinge Thruster Bar,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,jlf297,Jennifer Fuhrer,jlf297
+11839,MECH2-118,1029-113 Slider,11728,MECH2-18,Artemis Racks,MECH2,Completed,jcw297,James Wu,jcw297
+11838,MECH2-117,4010-0157-CE Regular Bracket,11728,MECH2-18,Artemis Racks,MECH2,Completed,jcw297,James Wu,jcw297
+11837,MECH2-116,Aft End Mount Piece_AA,11728,MECH2-18,Artemis Racks,MECH2,Anodizing,jcw297,James Wu,jcw297
+11836,MECH2-115,Aft Rack Midcap Bulkhead_AA,11728,MECH2-18,Artemis Racks,MECH2,Anodizing,jcw297,James Wu,jcw297
+11835,MECH2-114,Board Spacer Long_AA,11728,MECH2-18,Artemis Racks,MECH2,Sanding,jcw297,James Wu,jcw297
+11834,MECH2-113,Fore Backplane Support_AA,11728,MECH2-18,Artemis Racks,MECH2,Anodizing,jcw297,James Wu,jcw297
+11833,MECH2-112,Fore Thermal Mount_AA,11728,MECH2-18,Artemis Racks,MECH2,Anodizing,jcw297,James Wu,jcw297
+11832,MECH2-111,Middle Backplane Plastic Support_AA,11728,MECH2-18,Artemis Racks,MECH2,Sanding,jcw297,James Wu,jcw297
+11831,MECH2-110,Middle Thermal Mount_AA,11728,MECH2-18,Artemis Racks,MECH2,Anodizing,jcw297,James Wu,jcw297
+11830,MECH2-109,Rail Wedge Support_AA,11728,MECH2-18,Artemis Racks,MECH2,Anodizing,jcw297,James Wu,jcw297
+11828,MECH2-107,Wedgelock Tower 1 Side Array Mirrored_AA,11728,MECH2-18,Artemis Racks,MECH2,Anodizing,jcw297,James Wu,jcw297
+11827,MECH2-106,Wedgelock Tower 1 Side Array_AA,11728,MECH2-18,Artemis Racks,MECH2,Anodizing,jcw297,James Wu,jcw297
+11826,MECH2-105,Wedgelock Tower 4 Array_AA,11728,MECH2-18,Artemis Racks,MECH2,Anodizing,jcw297,James Wu,jcw297
+11823,MECH2-104,Handle_AA,11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11822,MECH2-103,Pins,11732,MECH2-22,Artemis Downward Manipulator,MECH2,Completed,zw85,Zaibo Wang,zw85
+11821,MECH2-102,Mounting Arms,11732,MECH2-22,Artemis Downward Manipulator,MECH2,Sanding,zw85,Zaibo Wang,zw85
+11820,MECH2-101,Downman Arms,11732,MECH2-22,Artemis Downward Manipulator,MECH2,Manufacturing,zw85,Zaibo Wang,zw85
+11819,MECH2-100,Downcam cap round 3_NV_AA,11730,MECH2-20,Artemis Downcam,MECH2,Completed,cep89,Cora Peterson,ed422
+11818,MECH2-99,Bottom Cantilever_NV_AA,11730,MECH2-20,Artemis Downcam,MECH2,Completed,cep89,Cora Peterson,ed422
+11817,MECH2-98,Camera Spacer Back_AA,11729,MECH2-19,Artemis Forecam,MECH2,Completed,cep89,Cora Peterson,ed422
+11816,MECH2-97,Camera Spacer_AA,11729,MECH2-19,Artemis Forecam,MECH2,Completed,cep89,Cora Peterson,ed422
+11815,MECH2-96,bracket Forward camera_AA,11729,MECH2-19,Artemis Forecam,MECH2,Completed,cep89,Cora Peterson,ed422
+11814,MECH2-95,New Endcap Forward Camera_AA,11729,MECH2-19,Artemis Forecam,MECH2,Completed,cep89,Cora Peterson,ed422
+11813,MECH2-94,Hull Forward Camera_AA,11729,MECH2-19,Artemis Forecam,MECH2,Completed,cep89,Cora Peterson,ed422
+11804,MECH2-93,Apollo Fore Thruster Mount,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,jlf297,Jennifer Fuhrer,jlf297
+11803,MECH2-92,Apollo Thruster Mounts,11735,MECH2-25,Apollo Frame,MECH2,Anodizing,jlf297,Jennifer Fuhrer,jlf297
+11801,MECH2-90,Plate,11795,MECH2-84,Artemis Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,mvb36
+11800,MECH2-89,Piston,11795,MECH2-84,Artemis Kill-Switch,MECH2,Completed,mvb36,Mark Brancale,mvb36
+11799,MECH2-88,Handle Mount 1,11795,MECH2-84,Artemis Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,mvb36
+11798,MECH2-87,Endcap,11795,MECH2-84,Artemis Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,mvb36
+11797,MECH2-86,Collar,11795,MECH2-84,Artemis Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,mvb36
+11796,MECH2-85,Main part,11795,MECH2-84,Artemis Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,mvb36
+11795,MECH2-84,Artemis Kill-Switch,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,mvb36,Mark Brancale,mvb36
+11794,MECH2-83,Handle Mount Minisub,11744,MECH2-33,Apollo Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,mvb36
+11793,MECH2-82,Plate,11744,MECH2-33,Apollo Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,mvb36
+11791,MECH2-80,Piston,11744,MECH2-33,Apollo Kill-Switch,MECH2,Completed,mvb36,Mark Brancale,mvb36
+11790,MECH2-79,Endcap,11744,MECH2-33,Apollo Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,mvb36
+11789,MECH2-78,Collar,11744,MECH2-33,Apollo Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,mvb36
+11788,MECH2-77,Valve Enclosure Rear Endcap_AA,11733,MECH2-23,Artemis Valve Enclosure,MECH2,Anodizing,aml326,Alan Lee,aml326
+11787,MECH2-76,Valve Enclosure Front Endcap_AA,11733,MECH2-23,Artemis Valve Enclosure,MECH2,Anodizing,aml326,Alan Lee,aml326
+11786,MECH2-75,FrameRearEnd_AA,11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11785,MECH2-74,FrameFrontEnd_AA,11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11784,MECH2-73,FrameTopPlate_AA,11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11783,MECH2-72,FrameBottomPlate_AA,11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11782,MECH2-71,BatteryPodCollar_AA (x6),11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11781,MECH2-70,BatteryPodCollar_AA (x2),11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11780,MECH2-69,SEACON Panel Starboard,11723,MECH2-13,Artemis UHPV,MECH2,Anodizing,ll543,Laura Lee,
+11779,MECH2-68,SEACON Panel Port,11723,MECH2-13,Artemis UHPV,MECH2,Anodizing,ll543,Laura Lee,
+11778,MECH2-67,Collar_AA,11723,MECH2-13,Artemis UHPV,MECH2,Sanding,ll543,Laura Lee,
+11777,MECH2-66,Fore_Endcap_17_AA,11723,MECH2-13,Artemis UHPV,MECH2,Anodizing,ll543,Laura Lee,
+11776,MECH2-65,Aft Cap_AA,11723,MECH2-13,Artemis UHPV,MECH2,Anodizing,ll543,Laura Lee,
+11775,MECH2-64,Collar_Top_AA,11724,MECH2-14,Hydrophones Enclosure,MECH2,Manufacturing,ll543,Laura Lee,
+11774,MECH2-63,Hydrop_Collar_AA,11724,MECH2-14,Hydrophones Enclosure,MECH2,Manufacturing,ll543,Laura Lee,
+11773,MECH2-62,Hydrophones_Hull_AA,11724,MECH2-14,Hydrophones Enclosure,MECH2,Manufacturing,ll543,Laura Lee,
+11772,MECH2-61,Hydrophones_Lid_AA,11724,MECH2-14,Hydrophones Enclosure,MECH2,Anodizing,ll543,Laura Lee,
+11771,MECH2-60,top_right_mount_AA,11737,MECH2-27,Apollo Racks,MECH2,Completed,cep89,Cora Peterson,cep89
+11770,MECH2-59,top_left_mount_AA,11737,MECH2-27,Apollo Racks,MECH2,Completed,cep89,Cora Peterson,cep89
+11769,MECH2-58,new_right_computer_mount_AA,11737,MECH2-27,Apollo Racks,MECH2,Completed,cep89,Cora Peterson,cep89
+11768,MECH2-57,tower_mount_minisub_AA,11737,MECH2-27,Apollo Racks,MECH2,Anodizing,jgf82,Joseph Featherston,cep89
+11767,MECH2-56,new_left_ethernet_mount_AA,11737,MECH2-27,Apollo Racks,MECH2,Completed,cep89,Cora Peterson,cep89
+11766,MECH2-55,new_left_computer_mount_AA,11737,MECH2-27,Apollo Racks,MECH2,Anodizing,jgf82,Joseph Featherston,cep89
+11765,MECH2-54,new_aft_right_computer_mount_AA,11737,MECH2-27,Apollo Racks,MECH2,Completed,cep89,Cora Peterson,cep89
+11764,MECH2-53,Fore_Endcap_AA,11737,MECH2-27,Apollo Racks,MECH2,Completed,cep89,Cora Peterson,cep89
+11763,MECH2-52,fore_cam_bracket_AA,11737,MECH2-27,Apollo Racks,MECH2,Completed,cep89,Cora Peterson,cep89
+11762,MECH2-51,delrin_backplane_support_AA,11737,MECH2-27,Apollo Racks,MECH2,Completed,cep89,Cora Peterson,cep89
+11761,MECH2-50,cross_mount_tower_minisub_AA,11737,MECH2-27,Apollo Racks,MECH2,Completed,cep89,Cora Peterson,cep89
+11760,MECH2-49,Aft_Endcap_AA,11737,MECH2-27,Apollo Racks,MECH2,Completed,cep89,Cora Peterson,cep89
+11759,MECH2-48,PortedEndcapFixturePlate,11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11758,MECH2-47,PortedEndcap_AA (x6),11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11757,MECH2-46,PortedEndcap_AA (x2),11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11756,MECH2-45,BoringEndcap_AA (x6),11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11755,MECH2-44,Endcap_Unported_AA.SLDPRT,11731,MECH2-21,Active Ballast,MECH2,Anodizing,Not Assigned,NA,jdb382
+11754,MECH2-43,Main part,11744,MECH2-33,Apollo Kill-Switch,MECH2,Anodizing,mvb36,Mark Brancale,mvb36
+11753,MECH2-42,Shaft,11743,MECH2-32,Vector Thrust,MECH2,Manufacturing,Not Assigned,NA,mz269
+11752,MECH2-41,BoringEndcap_AA (x2),11726,MECH2-16,Battery Pods,MECH2,Completed,csc254,Cuyler Crandall,csc254
+11751,MECH2-40,Arms 2in_AA,11732,MECH2-22,Artemis Downward Manipulator,MECH2,Sanding,zw85,Zaibo Wang,zw85
+11750,MECH2-39,forward camera flange_AA,11729,MECH2-19,Artemis Forecam,MECH2,Completed,cep89,Cora Peterson,ed422
+11749,MECH2-38,new_right_ethernet_mount_AA,11737,MECH2-27,Apollo Racks,MECH2,Anodizing,jgf82,Joseph Featherston,cep89
+11748,MECH2-37,Wedgelock Tower 4 Array AFT_AA,11728,MECH2-18,Artemis Racks,MECH2,Anodizing,jcw297,James Wu,jcw297
+11747,MECH2-36,Valve Enclosure Hull_AA,11733,MECH2-23,Artemis Valve Enclosure,MECH2,Anodizing,aml326,Alan Lee,aml326
+11746,MECH2-35,Thruster_Heatsink_Main_AA,11727,MECH2-17,Thermal Analysis,MECH2,Manufacturing,etc59,Eric Chiang,etc59
+11745,MECH2-34,Endcap_Ported_AA.SLDPRT,11731,MECH2-21,Active Ballast,MECH2,Anodizing,jdb382,John Bartlett,jdb382
+11744,MECH2-33,Apollo Kill-Switch,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,mvb36,Mark Brancale,mvb36
+11743,MECH2-32,Vector Thrust,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,mz269,Mei Zhang,mz269
+11742,MECH2-31,SBoom Lid,11734,MECH2-24,Apollo Sensor Boom,MECH2,Anodizing,sjt85,Samuel Tome,sjt85
+11740,MECH2-29,Sboom hull,11734,MECH2-24,Apollo Sensor Boom,MECH2,Anodizing,sjt85,Samuel Tome,sjt85
+11738,MECH2-28,Battery Port,11736,MECH2-26,Apollo UHPV,MECH2,Anodizing,aml326,Alan Lee,
+11737,MECH2-27,Apollo Racks,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Completed,cep89,Cora Peterson,
+11736,MECH2-26,Apollo UHPV,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,ll543,Laura Lee,
+11735,MECH2-25,Apollo Frame,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,jlf297,Jennifer Fuhrer,
+11734,MECH2-24,Apollo Sensor Boom,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,sjt85,Samuel Tome,
+11733,MECH2-23,Artemis Valve Enclosure,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Sanding,aml326,Alan Lee,aml326
+11732,MECH2-22,Artemis Downward Manipulator,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,zw85,Zaibo Wang,
+11731,MECH2-21,Active Ballast,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,jdb382,John Bartlett,
+11730,MECH2-20,Artemis Downcam,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Completed,cep89,Cora Peterson,cep89
+11729,MECH2-19,Artemis Forecam,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Completed,cep89,Cora Peterson,
+11728,MECH2-18,Artemis Racks,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,jcw297,James Wu,
+11727,MECH2-17,Thermal Analysis,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,etc59,Eric Chiang,
+11726,MECH2-16,Battery Pods,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,csc254,Cuyler Crandall,
+11725,MECH2-15,Artemis Frame,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,svk28,Sanika Kulkarni,
+11724,MECH2-14,Hydrophones Enclosure,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,ll543,Laura Lee,
+11723,MECH2-13,Artemis UHPV,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Manufacturing,ll543,Laura Lee,
+11722,MECH2-12,Mark's Machining Project,11711,MECH2-6,Freshmen Machining Project,MECH2,Completed,mvb36,Mark Brancale,ll543
+11721,MECH2-11,Zaibo's Machining Project,11711,MECH2-6,Freshmen Machining Project,MECH2,Completed,zw85,Zaibo Wang,ll543
+11720,MECH2-10,Eric's Machining Project,11711,MECH2-6,Freshmen Machining Project,MECH2,Completed,ed422,Eric Dalpe,ll543
+11719,MECH2-9,Cuyler's Machining Project,11711,MECH2-6,Freshmen Machining Project,MECH2,Completed,csc254,Cuyler Crandall,ll543
+11713,MECH2-8,Mechanical Workflow Does not Properly Close Issues,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Completed,asb322,Zander Bolgar,ll543
+11711,MECH2-6,Freshmen Machining Project,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Completed,Not Assigned,NA,ll543
+11706,MECH2-5,James Machining Project,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Completed,jcw297,James Wu,ll543
+11705,MECH2-4,Zander's new member machining project,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Completed,asb322,Zander Bolgar,asb322
+11704,MECH2-3,Downcam Flange_TL,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Completed,ll543,Laura Lee,asb322
+11703,MECH2-2,Laura Trying To Learn Jira,10400,Mech2,Artemis & Apollo Mechanical Fabrication,MECH2,Completed,asb322,Zander Bolgar,asb322

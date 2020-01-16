@@ -1,0 +1,40 @@
+ID,Name,Summary,Parent ID,Parent Key,Parent Sumamry,Project Key,Status,Assignee Name,DisplayName,Watchers
+13756,KLMF-67,Leviathan_UHPV_SeaconPanel_KL,13602,KLMF-3,Leviathan UHPV,KLMF,To Do,jb974,Juliette Bendheim,zmr5
+13755,KLMF-66,Leviathan_UHPV_ForeEndCap_KL,13602,KLMF-3,Leviathan UHPV,KLMF,To Do,jb974,Juliette Bendheim,zmr5
+13754,KLMF-65,Leviathan_UHPV_Collar_KL,13602,KLMF-3,Leviathan UHPV,KLMF,To Do,jb974,Juliette Bendheim,zmr5
+13753,KLMF-64,Leviathan_UHPV_AftEndCap_KL,13602,KLMF-3,Leviathan UHPV,KLMF,To Do,jb974,Juliette Bendheim,zmr5
+13739,KLMF-50,jiratest,13715,KLMF-30,Jira Test,KLMF,To Do,Not Assigned,NA,zmr5
+13738,KLMF-49,ManipulatorDeploymentSpacers,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
+13737,KLMF-48,ManipulatorDeploymentBushings,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
+13736,KLMF-47,ManipulatorDeploymentPins,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
+13735,KLMF-46,ManipulatorDeploymentMount,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
+13734,KLMF-45,ManipulatorDeploymentLinkage2,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
+13733,KLMF-44,ManipulatorDeploymentLinkage1,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
+13714,KLMF-29,Max,13700,KLMF-15,Sanding (2020),KLMF,To Do,mdl262,Max Li,zmr5
+13713,KLMF-28,Nikki,13700,KLMF-15,Sanding (2020),KLMF,To Do,njh84,Nikki Hart,zmr5
+13712,KLMF-27,Kyle,13700,KLMF-15,Sanding (2020),KLMF,To Do,kah289,Kyle Harris,zmr5
+13711,KLMF-26,Diane,13700,KLMF-15,Sanding (2020),KLMF,To Do,ddl58,Diane Lee,zmr5
+13710,KLMF-25,Jackson,13700,KLMF-15,Sanding (2020),KLMF,To Do,jph266,Jackson Hardin,zmr5
+13709,KLMF-24,Brian,13700,KLMF-15,Sanding (2020),KLMF,To Do,bpm74,Brian McDonagh,zmr5
+13708,KLMF-23,Bedros,13700,KLMF-15,Sanding (2020),KLMF,To Do,bdj25,Bedros Janoyan,zmr5
+13707,KLMF-22,Matthew,13700,KLMF-15,Sanding (2020),KLMF,To Do,mnm54,Matthew Menis,zmr5
+13706,KLMF-21,Lee,13700,KLMF-15,Sanding (2020),KLMF,To Do,alb433,Alvaro Borrell,zmr5
+13705,KLMF-20,Bryan,13700,KLMF-15,Sanding (2020),KLMF,To Do,bz297,Bryan Zin,zmr5
+13704,KLMF-19,Zaeem,13700,KLMF-15,Sanding (2020),KLMF,To Do,zmr5,Zaeem Rana,zmr5
+13703,KLMF-18,Mrinal,13700,KLMF-15,Sanding (2020),KLMF,To Do,mt779,Mrinal Thomas,zmr5
+13702,KLMF-17,Emily,13700,KLMF-15,Sanding (2020),KLMF,To Do,eay9,Emily Youtt,zmr5
+13701,KLMF-16,Cuyler,13700,KLMF-15,Sanding (2020),KLMF,To Do,csc254,Cuyler Crandall,zmr5
+13613,KLMF-14,Manipulator,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,Not Assigned,NA,csc254
+13612,KLMF-13,Custom Thrusters,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,mt779,Mrinal Thomas,csc254
+13611,KLMF-12,Vector Thrust,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,csc254,Cuyler Crandall,csc254
+13610,KLMF-11,Killswitch,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,mdl262,Max Li,csc254
+13609,KLMF-10,Valve Enclosure,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,bpm74,Brian McDonagh,csc254
+13608,KLMF-9,Manipulators Deployment,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,jph266,Jackson Hardin,csc254
+13607,KLMF-8,Transmit,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,kah289,Kyle Harris,csc254
+13606,KLMF-7,Kraken Modifications,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,alb433,Alvaro Borrell,csc254
+13605,KLMF-6,Leviathan Cameras,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,ddl58,Diane Lee,csc254
+13604,KLMF-5,Leviathan Racks,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,njh84,Nikki Hart,csc254
+13603,KLMF-4,Leviathan Frame,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,bdj25,Bedros Janoyan,csc254
+13602,KLMF-3,Leviathan UHPV,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,jb974,Juliette Bendheim,csc254
+13601,KLMF-2,Battery Pods,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,eay9,Emily Youtt,csc254
+13600,KLMF-1,Hydrophones,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,mnm54,Matthew Menis,csc254
