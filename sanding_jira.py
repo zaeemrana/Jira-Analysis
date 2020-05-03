@@ -8,7 +8,7 @@ from jira import JIRA
 import pandas as pd
 
 # Read credentials
-creds = open("./Analysis/creds.txt")
+creds = open("../config/creds.txt")
 username = creds.readline()[:-1]
 pwd = creds.readline()[:-1]
 
@@ -17,7 +17,7 @@ jiraURL = 'https://jira.cuauv.org/'
 options = {'server': jiraURL}
 jira = JIRA(options, auth=(username, pwd))
 
-def log_hrs(netids):
+def log_hrs(netids, hrs):
     curr_proj = "KLMF-15"
     generalData_df = pd.read_csv('./Analysis/generalIssue'+curr_proj[:4]+'.csv')
 
@@ -29,4 +29,4 @@ def log_hrs(netids):
 
     for name in sandingIssues:
         #issue = jira.issue(name)
-        jira.add_worklog(name, timeSpent="1d")
+        jira.add_worklog(name, timeSpent=hrs + "h")

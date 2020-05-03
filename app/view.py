@@ -8,13 +8,14 @@ from flask import url_for, redirect, render_template, flash, g, session, jsonify
 from flask import Flask
 from app import app
 from . import timeslot
-import os, sys
+import pandas as pd
+import os, sys, tablib
 
 
 name_to_netid = {
         "Alvaro Lee":        "alb433",
         "Bedros Janoyan":    "bdj25",
-        "Brian Mcdonagh":    "bpm74",
+        "Brian McDonagh":    "bpm74",
         "Bryan Zin":         "bz297",
         "Cuyler Crandall":   "csc254",
         "Diane Lee":         "ddl58",
@@ -44,7 +45,13 @@ def get_current_user():
 def index():
     netid = get_current_user()
     print("Request from user:", netid, file=sys.stderr)
-    return render_template('/layouts/default.html', content = render_template('./pages/index.html'))
+    p1 = {'projTab1':'Odysseus & Ajax', 'projTab2':'Kraken & Leviathan'}
+
+    return render_template('/layouts/default.html', content = render_template('./pages/index.html', **p1))
+
+@app.route('/indexRefresh.html')
+def indexRefresh():
+    return render_template('/layouts/default.html', content = render_template('./pages/indexRefresh.html'))
 
 @app.route('/mechanicalCal.html', methods=['GET', 'POST'])
 def mechanicalCal():
@@ -68,13 +75,14 @@ def mechanicalCal():
     context = {}
     for week,signin in enumerate(signins):
         for j,day in enumerate(days):
-            for i,signups in enumerate(signin): 
-                context[day + signups] = Markup('<h4 "font-size:8vw">' + values[ i ][ int(week*6)+j  ] + '</h4>')
+            for i,signups in enumerate(signin):
+                context[day + signups] = Markup( values[ i ][ int(week*6)+j  ])
 
     header_dict = {}
     for j,day in enumerate(days):
         for week in range(2):
-            header_dict[day + str(week+1)] = Markup('<h4 "font-size:8vw">'  + header_dates[j+int(week*6)] + '</h4>')
+            dayDate = header_dates[j+int(week*6)].split(':')
+            header_dict[day + str(week+1)] = Markup(dayDate[0] + '<br>' + dayDate[1])
 
     return render_template('/layouts/default.html', content = render_template('./pages/mechanicalCal.html', **context, **header_dict ))
 
@@ -111,9 +119,11 @@ def sanding():
         names_checked = request.form.getlist("sandingcheck")
         netids_checked = [ name_to_netid[str(name)] for name in names_checked]
 
+        hours_checked = names_checked = request.form.getlist("radiocheck")
+
         sys.path.append('./../')
         from sanding_jira import log_hrs
-        log_hrs(netids_checked)
+        log_hrs(netids_checked, hours_checked)
 
         return redirect(url_for('sandingSubmit'))
 
@@ -123,34 +133,31 @@ def sanding():
 def addParts():
     return render_template('/layouts/default.html', content = render_template('./pages/addParts.html'))
 
+@app.route('/statusParts.html', methods = ['GET', 'POST'])
+def statusParts():
+    if request.method == "POST":
+        from Analysis import dataPull
+        return redirect(url_for('statusRefresh'))
 
-"""
-<form method="GET" action="/search" >
-    <input type="text" name="make"/>
-    <input type="text" name="model"/>
-    <input type="submit" value="Submit"/>
-</form>
+    status_df = pd.read_csv('./app/static/statusKLMF.csv')
+    # yes, these had to be hard coded
+    unapplicable_issues = ['KLMF-15','KLMF-14', 'KLMF-13', 'KLMF-12', 'KLMF-11', 'KLMF-10', 'KLMF-9', 'KLMF-8',
+    'KLMF-7', 'KLMF-6', 'KLMF-5', 'KLMF-4', 'KLMF-3','KLMF-2', 'KLMF-1', 'KLMF-30', 'KLMF-179'] + ["KLMF-15","KLMF-16","KLMF-17",
+    "KLMF-18","KLMF-19","KLMF-21","KLMF-22","KLMF-23","KLMF-26","KLMF-27","KLMF-28","KLMF-29","KLMF-178", 'KLMF-50']
 
-<form method="POST" action="/search_post">
-    <input type="text" name="make"/>
-    <input type="text" name="model"/>
-    <input type="submit" value="Submit"/>
-</form>
+    status_df = status_df[~( status_df['Name_caller'].isin(unapplicable_issues))]
+    status_df = status_df.sort_values('Status')
+    status_df.colums = ['Name'] + status_df.columns[1:]
+    dataset = tablib.Dataset().load(status_df)
 
-@app.route("/search")
-def do_search():
-    make = request.args.get('make')
-    model = request.args.get('model')
-    return "You search for car make: {0}, and car model: {1}".format(make, model)
+    tableHTML = dataset.html
 
+    table = {"csvTable": tableHTML}
+    return render_template('/layouts/default.html', content = render_template('./pages/statusParts.html', **table))
 
-# Getting arguements from a POST form
-@app.route("/search_post", methods = ['POST'])
-def do_post_search():
-    make = request.form.get('make')
-    model = request.form.get('model')
-    return "You search for car make: {0}, and car model: {1}".format(make, model)
-"""
+@app.route('/statusRefresh.html')
+def statusRefresh():
+    return render_template('/layouts/default.html', content = render_template('./pages/statusRefresh.html'))
 
 # ------------------------------------------------------
 

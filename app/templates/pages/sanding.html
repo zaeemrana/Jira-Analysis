@@ -1,70 +1,122 @@
-<div class="panel-header">
-    <div class="header text-center">
-        <h2 class="title">Automate Sanding</h2>
-        <p class="category">Simply check in the names and automatically log hours to Jira</a>
-        </p>
-    </div>
-</div>
-<div class="content">
+<section class="py-5 bg-image-full" style="background-image: url('./static/images/sanding_home.JPG'); height: 500px;">
+  <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">
-                    Enter the list of names below that will be logged. Note that it is currently set to 3hr duration. It may take a few seconds to process
-                </div>
-                <div class="card-body">
-                    <div id="checkboxes">
-                        <label>Members</label>
-                        <br></br>
-                        <form method="POST" action = "/sanding.html">
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck" value="Alvaro Lee">
-                                Alvaro Borrel
-                            </li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck"
-                                    value="Bedros Janoyan"> Bedros
-                                Janoyan</li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck"
-                                    value="Brain McDonagh"> Brian
-                                McDonagh</li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck" value="Bryan Zin">
-                                Bryan Zin</li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck"
-                                    value="Cuyler Crandall"> Cuyler
-                                Crandall</li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck" value="Diane Lee">
-                                Diane Lee</li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck" value="Emily Youtt">
-                                Emily Youtt
-                            </li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck"
-                                    value="Jackson Hardin"> Jackson
-                                Hardin</li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck"
-                                    value="Juliette Bendheim">
-                                Juliette Bendheim</li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck" value="Kyle Harris">
-                                Kyle Harris
-                            </li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck"
-                                    value="Matthew Menis"> Matthew
-                                Menis</li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck" value="Max Li">
-                                Max Li</li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck"
-                                    value="Mrinal Thomas"> Mrinal
-                                Thomas</li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck" value="Nikki Hart">
-                                Nikki Hart
-                            </li>
-                            <li><input class="messageCheckbox" type="checkbox" name="sandingcheck" value="Zaeem Rana">
-                                Zaeem Rana
-                            </li>
-                            <br></br>
-                            <p><input type = "submit" value = "Submit"></p>
-                        </form>
-                    </div>
-                </div>
-            </div>
+      <div class="col">
+        <div class="text-center">
+          <h1 style="color:white">Automate Sanding</h1>
         </div>
+      </div>
     </div>
+  </div>
+</section>
+
+<div class="jumbotron-fluid">
+  <div class="container">
+    <br>
+    <div class="text-center">
+      <h4>Simply check in the names and automatically log hours to Jira</h4>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-8">
+        <form method="POST" action="/sanding.html">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Alvaro Lee" class="custom-control-input" id="defaultUnchecked1">
+            <label class="custom-control-label" for="defaultUnchecked1">Alvaro Borrel</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Bedros Janoyan" class="custom-control-input" id="defaultUnchecked2">
+            <label class="custom-control-label" for="defaultUnchecked2"> Bedros Janoyan</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Brain McDonagh" class="custom-control-input" id="defaultUnchecked3">
+            <label class="custom-control-label" for="defaultUnchecked3">Brian McDonagh</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Cuyler Crandall" class="custom-control-input" id="defaultUnchecked4">
+            <label class="custom-control-label" for="defaultUnchecked4">Cuyler Crandall</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Diane Lee" class="custom-control-input" id="defaultUnchecked5">
+            <label class="custom-control-label" for="defaultUnchecked5">Diane Lee</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Emily Youtt" class="custom-control-input" id="defaultUnchecked6">
+            <label class="custom-control-label" for="defaultUnchecked6">Emily Youtt</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Juliette Bendheim" class="custom-control-input" id="defaultUnchecked7">
+            <label class="custom-control-label" for="defaultUnchecked7">Juliette Bendheim</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Kyle Harris" class="custom-control-input" id="defaultUnchecked8">
+            <label class="custom-control-label" for="defaultUnchecked8">Kyle Harris</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Matthew Menis" class="custom-control-input" id="defaultUnchecked9">
+            <label class="custom-control-label" for="defaultUnchecked9">Matthew Menis</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Max Li" class="custom-control-input" id="defaultUnchecked10">
+            <label class="custom-control-label" for="defaultUnchecked10">Max Li</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Mrinal Thomas" class="custom-control-input" id="defaultUnchecked11">
+            <label class="custom-control-label" for="defaultUnchecked11">Mrinal Thomas</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Nikki Hart" class="custom-control-input" id="defaultUnchecked12">
+            <label class="custom-control-label" for="defaultUnchecked12">Nikki Hart</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="sandingcheck" value="Zaeem Rana" class="custom-control-input" id="defaultUnchecked13">
+            <label class="custom-control-label" for="defaultUnchecked13">Zaeem Rana</label>
+          </div>
+
+          <br>
+          <h4>Number of Hours to Log for names checked:</h4>
+          <!-- Default inline 1-->
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="defaultInline1" name="radiocheck" value="1">
+            <label class="custom-control-label" for="defaultInline1">1</label>
+          </div>
+
+          <!-- Default inline 2-->
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="defaultInline2" name="radiocheck" value="1">
+            <label class="custom-control-label" for="defaultInline2">2</label>
+          </div>
+
+          <!-- Default inline 3-->
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="defaultInline3" name="radiocheck" value="1" checked>
+            <label class="custom-control-label" for="defaultInline3">3</label>
+          </div>
+
+          <!-- Default inline 4-->
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="defaultInline3" name="radiocheck" value="1">
+            <label class="custom-control-label" for="defaultInline3">4</label>
+          </div>
+
+          <!-- Default inline 5-->
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="defaultInline3" name="radiocheck" value="1">
+            <label class="custom-control-label" for="defaultInline3">5</label>
+          </div>
+
+          <!-- Default inline 6-->
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="defaultInline3" name="radiocheck" value="1">
+            <label class="custom-control-label" for="defaultInline3">6</label>
+          </div>
+          <br>
+          <p><input type="submit" value="Submit"></p>
+
+        </form>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
 </div>

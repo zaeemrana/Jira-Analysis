@@ -1,39 +1,116 @@
-<div class="panel-header">
-    <div class="header text-center">
-        <h2 class="title">Welcome! This is the main page to the dashboard</h2>
-        <p class="category"> Use the links on the left to navigate. If it is down, contact Zaeem</p>
-    </div>
-</div>
-
-<div class="content">
+<section class="py-5 bg-image-full" style="background-image: url('./static/images/home.JPG'); height: 500px;">
+  <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">
-                    Below are some graphs that provide analysis on Mechanical team progress
-                </div>
-                <div class="card-body">
-                    <div class="imGraph">
-                        <img src="../../static/images/Cummalative_Hrs_over_time_per_member.png" alt="time per mem"
-                            width="1300" height="900" class="imCenter">
-                    </div>
-                    <div class="imGraph">
-                        <img src="../../static/images/Pareto_machine_time.png" alt="time per mem" width="1300"
-                            height="900" class="imCenter">
-                    </div>
-                    <div class="imGraph">
-                        <img src="../../static/images/Pareto_sanding_time.png" alt="time per mem" width="1300"
-                            height="900" class="imCenter">
-                    </div>
-                    <div class="imGraph">
-                        <img src="../../static/images/sanding_vs_machining.png" alt="time per mem" width="1300"
-                            height="900" class="imCenter">
-                    </div>
-                    <p class="text">
-
-                    </p>
-                </div>
-            </div>
+      <div class="col">
+        <div class="text-center">
+          <h1 style="color:red">Welcome to the CUAUV Mechanical Dashboard</h1>
         </div>
+      </div>
     </div>
+  </div>
+</section>
+
+<div class="jumbotron-fluid">
+  <div class="container">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="p1-tab" data-toggle="tab" href="#p1" role="tab" aria-controls="p1" aria-selected="true">{{projTab1}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="p2-tab" data-toggle="tab" href="#p2" role="tab" aria-controls="p2" aria-selected="false">{{projTab2}}</a>
+      </li>
+      <!-- Enter new Tab below and change the "projTab" and the p2 -->
+      <!-- <li class="nav-item">
+        <a class="nav-link" id="p2-tab" data-toggle="tab" href="#p2" role="tab" aria-controls="p2" aria-selected="false">{{projTab2}}</a>
+      </li> -->
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="p1" role="tabpanel" aria-labelledby="p1-tab">
+
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              <div class="imCenter">
+                <img src="../../static/images/Cummalative_Hrs_over_time_per_memberOAMF.png" alt="time per mem" class="img-fluid rounded" style="object-fit: fill;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              <div class="imCenter">
+                <img src="../../static/images/Pareto_machine_timeOAMF.png" alt="time per mem" class="img-fluid rounded" style="object-fit: fill;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              <div class="imCenter">
+                <img src="../../static/images/Pareto_sanding_timeOAMF.png" alt="time per mem" class="img-fluid rounded" style="object-fit: fill;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              <div class="imCenter">
+                <img src="../../static/images/sanding_vs_machiningOAMF.png" alt="time per mem" class="img-fluid rounded" style="object-fit: fill;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="p2" role="tabpanel" aria-labelledby="p2-tab">
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              <div class="imCenter">
+                <img src="../../static/images/Cummalative_Hrs_over_time_per_memberKLMF.png" alt="time per mem" class="img-fluid rounded" style="object-fit: fill;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              <div class="imCenter">
+                <img src="../../static/images/Pareto_machine_timeKLMF.png" alt="time per mem" class="img-fluid rounded" style="object-fit: fill;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              <div class="imCenter">
+                <img src="../../static/images/Pareto_sanding_timeKLMF.png" alt="time per mem" class="img-fluid rounded" style="object-fit: fill;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              <div class="imCenter">
+                <img src="../../static/images/sanding_vs_machiningKLMF.png" alt="time per mem" class="img-fluid rounded" style="object-fit: fill;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </div>

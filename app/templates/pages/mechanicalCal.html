@@ -1,945 +1,955 @@
-<div class="panel-header">
-    <div class="header text-center">
-        <h2 class="title">Machining Calendar</h2>
-        <p class="category">Log when people are in the machine shop</a>
-        </p>
-    </div>
-</div>
-<div class="content">
+<section class="py-5 bg-image-full" style="background-image: url('./static/images/machining_calendar_home.jpg'); height: 500px;">
+  <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">
-                    Mechanical Machining Calendar
-                </div>
-                <div class="card-body">
-                    
-                    <form method="POST" action = "/mechanicalCal.html">
-                        <div class="row">
-                            <div class="columnCal">
-                                <h2>Timeslots - This Week</h2>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>9:00AM - 10:00AM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>10:00AM - 11:00AM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>11:00AM - 12:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>1:00PM - 2:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>2:00PM - 3:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>3:00PM - 4:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>4:00PM - 5:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>6:00PM - 7:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>7:00PM - 8:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>8:00PM - 9:00PM</h2>
-                                </div>
-                                <br></br>        
-                            </div>
-                            <div class="columnCal">
-                                <h2>Sunday</h2>
-                                <br></br>
-                                
-                            </div>
-                            <div class="columnCal">
-                                {{ Monday1|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 11">
-                                    {{ Monday11|safe }}
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 12">
-                                    {{Monday12|safe}}
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 13">
-                                    {{Monday13|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 21">
-                                    {{Monday21|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 22">
-                                    {{Monday22|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 23">
-                                    {{Monday23|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 24">
-                                    {{Monday24|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 31">
-                                    {{Monday31|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 32">
-                                    {{Monday32|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday 33">
-                                    {{Monday33|safe}}
-                                </div>
-                                
-                                <br></br>
-                            </div>
-                            <div class="columnCal">
-                                {{ Tuesday1|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 11">
-                                    {{Tuesday11|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 12">
-                                    {{Tuesday12|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 13">
-                                    {{Tuesday13|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 21">
-                                    {{Tuesday21|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 22">
-                                    {{Tuesday22|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 23">
-                                    {{Tuesday23|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 24">
-                                    {{Tuesday24|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 31">
-                                    {{Tuesday31|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 32">
-                                    {{Tuesday32|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday 33">
-                                    {{Tuesday33|safe}}
-                                </div>
-                                
-                                <br></br>
-                            </div>
-                            <div class="columnCal">
-                                {{ Wednesday1|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 11">
-                                    {{Wednesday11|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 12">
-                                    {{Wednesday12|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 13">
-                                    {{Wednesday13|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 21">
-                                    {{Wednesday21|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 22">
-                                    {{Wednesday22|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 23">
-                                    {{Wednesday23|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 24">
-                                    {{Wednesday24|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 31">
-                                    {{Wednesday31|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 32">
-                                    {{Wednesday32|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday 33">
-                                    {{Wednesday33|safe}}
-                                </div>
-                                
-                                <br></br>
-                            </div>
-                            <div class="columnCal">
-                                {{ Thursday1|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 11">
-                                    {{Thursday11|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 12">
-                                    {{Thursday12|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 13">
-                                    {{Thursday13|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 21">
-                                    {{Thursday21|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 22">
-                                    {{Thursday22|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 23">
-                                    {{Thursday23|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 24">
-                                    {{Thursday24|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 31">
-                                    {{Thursday31|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 32">
-                                    {{Thursday32|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday 33">
-                                    {{Thursday33|safe}}
-                                </div>
-                                
-                                <br></br>
-                            </div>
-                            <div class="columnCal">
-                                {{ Friday1|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 11">
-                                    {{Friday11|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 12">
-                                    {{Friday12|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 13">
-                                    {{Friday13|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 21">
-                                    {{Friday21|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 22">
-                                    {{Friday22|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 23">
-                                    {{Friday23|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 24">
-                                    {{Friday24|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 31">
-                                    {{Friday31|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 32">
-                                    {{Friday32|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday 33">
-                                    {{Friday33|safe}}
-                                </div>
-                                
-                                <br></br>
-
-                            </div>
-                            <div class="columnCal">
-                                {{ Saturday1|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 11">
-                                    {{Saturday11|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 12">
-                                    {{Saturday12|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 13">
-                                    {{Saturday13|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 21">
-                                    {{Saturday21|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 22">
-                                    {{Saturday22|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 23">
-                                    {{Saturday23|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 24">
-                                    {{Saturday24|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 31">
-                                    {{Saturday31|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 32">
-                                    {{Saturday32|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday 33">
-                                    {{Saturday33|safe}}
-                                </div>
-                                
-                                <br></br>
-                            </div>
-                        </div>
-
-                        <br></br>
-                        <div class="row">
-                            <div class="columnCal">
-                                <h2>Timeslots - Next Week</h2>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>9:00AM - 10:00AM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>10:00AM - 11:00AM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>11:00AM - 12:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>1:00PM - 2:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>2:00PM - 3:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>3:00PM - 4:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>4:00PM - 5:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>6:00PM - 7:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>7:00PM - 8:00PM</h2>
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <h2>8:00PM - 9:00PM</h2>
-                                </div>
-                                <br></br>        
-                            </div>
-                            <div class="columnCal">
-                                <h2>Sunday</h2>
-                                <br></br>
-                                
-                            </div>
-                            <div class="columnCal">
-                                {{ Monday2|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday1 111">
-                                    {{ Monday111|safe }}
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday1 112">
-                                    {{Monday112|safe}}
-                                </div>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday1 113">
-                                    {{Monday113|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday1 121">
-                                    {{Monday121|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday1 122">
-                                    {{Monday122|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday1 123">
-                                    {{Monday123|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday1 124">
-                                    {{Monday124|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday1 131">
-                                    {{Monday131|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday1 132">
-                                    {{Monday132|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Monday1 133">
-                                    {{Monday133|safe}}
-                                </div>
-                                
-                                <br></br>
-                            </div>
-                            <div class="columnCal">
-                                {{ Tuesday2|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday1 111">
-                                    {{Tuesday111|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday1 112">
-                                    {{Tuesday112|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday1 113">
-                                    {{Tuesday113|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday1 121">
-                                    {{Tuesday121|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday1 122">
-                                    {{Tuesday122|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday1 123">
-                                    {{Tuesday123|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday1 124">
-                                    {{Tuesday124|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday1 131">
-                                    {{Tuesday131|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday1 132">
-                                    {{Tuesday132|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Tuesday1 133">
-                                    {{Tuesday133|safe}}
-                                </div>
-                                
-                                <br></br>
-                            </div>
-                            <div class="columnCal">
-                                {{ Wednesday2|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday1 111">
-                                    {{Wednesday111|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday1 112">
-                                    {{Wednesday112|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday1 113">
-                                    {{Wednesday113|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday1 121">
-                                    {{Wednesday121|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday1 122">
-                                    {{Wednesday122|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday1 123">
-                                    {{Wednesday123|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday1 124">
-                                    {{Wednesday124|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday1 131">
-                                    {{Wednesday131|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday1 132">
-                                    {{Wednesday132|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Wednesday1 133">
-                                    {{Wednesday133|safe}}
-                                </div>
-                                
-                                <br></br>
-                            </div>
-                            <div class="columnCal">
-                                {{ Thursday2|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday1 111">
-                                    {{Thursday111|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday1 112">
-                                    {{Thursday112|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday1 113">
-                                    {{Thursday113|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday1 121">
-                                    {{Thursday121|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday1 122">
-                                    {{Thursday122|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday1 123">
-                                    {{Thursday123|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday1 124">
-                                    {{Thursday124|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday1 131">
-                                    {{Thursday131|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday1 132">
-                                    {{Thursday132|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Thursday1 133">
-                                    {{Thursday133|safe}}
-                                </div>
-                                
-                                <br></br>
-                            </div>
-                            <div class="columnCal">
-                                {{ Friday2|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday1 111">
-                                    {{Friday111|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday1 112">
-                                    {{Friday112|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday1 113">
-                                    {{Friday113|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday1 121">
-                                    {{Friday121|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday1 122">
-                                    {{Friday122|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday1 123">
-                                    {{Friday123|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday1 124">
-                                    {{Friday124|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday1 131">
-                                    {{Friday131|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday1 132">
-                                    {{Friday132|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Friday1 133">
-                                    {{Friday133|safe}}
-                                </div>
-                                
-                                <br></br>
-
-                            </div>
-                            <div class="columnCal">
-                                {{ Saturday2|safe }}
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday1 111">
-                                    {{Saturday111|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday1 112">
-                                    {{Saturday112|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday1 113">
-                                    {{Saturday113|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday1 121">
-                                    {{Saturday121|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday1 122">
-                                    {{Saturday122|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday1 123">
-                                    {{Saturday123|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday1 124">
-                                    {{Saturday124|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <br></br>
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday1 131">
-                                    {{Saturday131|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday1 132">
-                                    {{Saturday132|safe}}
-                                </div>
-                                
-                                <br></br>
-                                <div class="timeslotBox">
-                                    <input class="messageCheckbox" type="checkbox" name="calcheck" value="Saturday1 133">
-                                    {{Saturday133|safe}}
-                                </div>
-                                
-                                <br></br>
-                            </div>
-                        </div>
-
-
-                        <p><input type = "submit" value = "Submit"></p>
-                        
-                    </form>
-                </div>
-            </div>
+      <div class="col">
+        <div class="text-center">
+          <h1 style="color:white">Machining Calendar</h1>
         </div>
+      </div>
     </div>
+  </div>
+</section>
+
+<div class="jumbotron-fluid">
+  <div class="container">
+    <br>
+    <div class="text-center">
+      <h4>Check the hours you want to machine</h4>
+    </div>
+    <br>
+
+    <div class="row">
+      <div class="col">
+
+        <form method="POST" action="/mechanicalCal.html">
+          <div class="row">
+            <div class="col">
+              This Week
+            </div>
+            <div class="col">
+              {{Monday1|safe}}
+            </div>
+            <div class="col">
+              {{Tuesday1|safe}}
+            </div>
+            <div class="col">
+              {{Wednesday1|safe}}
+            </div>
+            <div class="col">
+              {{Thursday1|safe}}
+            </div>
+            <div class="col">
+              {{Friday1|safe}}
+            </div>
+            <div class="col">
+              {{Saturday1|safe}}
+            </div>
+          </div>
+          <hr class="sep1">
+          <!-- 9-10am -->
+
+          <div class="row">
+            <div class="col">
+              9:00AM - 10:00AM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 11" id="Monday 11">
+                <label class="custom-control-label" for="Monday 11"></label>
+                {{Monday11|safe}}
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 11" id="Tuesday 11">
+                <label class="custom-control-label" for="Tuesday 11">{{Tuesday11|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 11" id="Wednesday 11">
+                <label class="custom-control-label" for="Wednesday 11">{{Wednesday11|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 11" id="Thursday 11">
+                <label class="custom-control-label" for="Thursday 11">{{Thursday11|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 11" id="Friday 11">
+                <label class="custom-control-label" for="Friday 11">{{Friday11|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 11" id="Saturday 11">
+                <label class="custom-control-label" for="Saturday 11">{{Saturday11|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 10-11am -->
+          <div class="row">
+            <div class="col">
+              10:00AM - 11:00AM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 12" id="Monday 12">
+                <label class="custom-control-label" for="Monday 12">{{Monday12|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 12" id="Tuesday 12">
+                <label class="custom-control-label" for="Tuesday 12">{{Tuesday12|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 12" id="Wednesday 12">
+                <label class="custom-control-label" for="Wednesday 12">{{Wednesday12|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 12" id="Thursday 12">
+                <label class="custom-control-label" for="Thursday 12">{{Thursday12|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 12" id="Friday 12">
+                <label class="custom-control-label" for="Friday 12">{{Friday12|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 12" id="Saturday 12">
+                <label class="custom-control-label" for="Saturday 12">{{Saturday12|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 11-12pm -->
+          <div class="row">
+            <div class="col">
+              11:00AM - 12:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 13" id="Monday 13">
+                <label class="custom-control-label" for="Monday 13">{{Monday13|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 13" id="Tuesday 13">
+                <label class="custom-control-label" for="Tuesday 13">{{Tuesday13|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 13" id="Wednesday 13">
+                <label class="custom-control-label" for="Wednesday 13">{{Wednesday13|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 13" id="Thursday 13">
+                <label class="custom-control-label" for="Thursday 13">{{Thursday13|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 13" id="Friday 13">
+                <label class="custom-control-label" for="Friday 13">{{Friday13|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 13" id="Saturday 13">
+                <label class="custom-control-label" for="Saturday 13">{{Saturday13|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr class="sep1">
+
+          <!-- 1-2pm -->
+          <div class="row">
+            <div class="col">
+              1:00PM - 2:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 21" id="Monday 21">
+                <label class="custom-control-label" for="Monday 21">{{Monday21|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 21" id="Tuesday 21">
+                <label class="custom-control-label" for="Tuesday 21">{{Tuesday21|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 21" id="Wednesday 21">
+                <label class="custom-control-label" for="Wednesday 21">{{Wednesday21|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 21" id="Thursday 21">
+                <label class="custom-control-label" for="Thursday 21">{{Thursday21|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 21" id="Friday 21">
+                <label class="custom-control-label" for="Friday 21">{{Friday21|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 21" id="Saturday 21">
+                <label class="custom-control-label" for="Saturday 21">{{Saturday21|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 2-3pm -->
+          <div class="row">
+            <div class="col">
+              2:00PM - 3:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 22" id="Monday 22">
+                <label class="custom-control-label" for="Monday 22">{{Monday22|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 22" id="Tuesday 22">
+                <label class="custom-control-label" for="Tuesday 22">{{Tuesday22|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 22" id="Wednesday 22">
+                <label class="custom-control-label" for="Wednesday 22">{{Wednesday22|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 22" id="Thursday 22">
+                <label class="custom-control-label" for="Thursday 22">{{Thursday22|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 22" id="Friday 22">
+                <label class="custom-control-label" for="Friday 22">{{Friday22|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 22" id="Saturday 22">
+                <label class="custom-control-label" for="Saturday 22">{{Saturday22|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 3-4pm -->
+          <div class="row">
+            <div class="col">
+              3:00PM - 4:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 23" id="Monday 23">
+                <label class="custom-control-label" for="Monday 23">{{Monday13|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 23" id="Tuesday 23">
+                <label class="custom-control-label" for="Tuesday 23">{{Tuesday23|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 23" id="Wednesday 23">
+                <label class="custom-control-label" for="Wednesday 23">{{Wednesday23|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 23" id="Thursday 23">
+                <label class="custom-control-label" for="Thursday 23">{{Thursday23|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 23" id="Friday 23">
+                <label class="custom-control-label" for="Friday 23">{{Friday23|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 23" id="Saturday 23">
+                <label class="custom-control-label" for="Saturday 23">{{Saturday23|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 4-5pm -->
+          <div class="row">
+            <div class="col">
+              4:00PM - 5:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 24" id="Monday 24">
+                <label class="custom-control-label" for="Monday 24">{{Monday24|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 24" id="Tuesday 24">
+                <label class="custom-control-label" for="Tuesday 24">{{Tuesday24|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 24" id="Wednesday 24">
+                <label class="custom-control-label" for="Wednesday 24">{{Wednesday24|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 24" id="Thursday 24">
+                <label class="custom-control-label" for="Thursday 24">{{Thursday24|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 24" id="Friday 24">
+                <label class="custom-control-label" for="Friday 24">{{Friday24|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 24" id="Saturday 24">
+                <label class="custom-control-label" for="Saturday 24">{{Saturday24|safe}}</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6-7pm -->
+          <hr class="sep1">
+          <div class="row">
+            <div class="col">
+              6:00PM - 7:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 31" id="Monday 31">
+                <label class="custom-control-label" for="Monday 31">{{Monday31|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 31" id="Tuesday 31">
+                <label class="custom-control-label" for="Tuesday 31">{{Tuesday31|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 31" id="Wednesday 31">
+                <label class="custom-control-label" for="Wednesday 31">{{Wednesday31|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 31" id="Thursday 31">
+                <label class="custom-control-label" for="Thursday 31">{{Thursday31|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 31" id="Friday 31">
+                <label class="custom-control-label" for="Friday 31">{{Friday31|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 31" id="Saturday 31">
+                <label class="custom-control-label" for="Saturday 31">{{Saturday31|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 7-8pm -->
+          <div class="row">
+            <div class="col">
+              7:00PM - 8:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 32" id="Monday 32">
+                <label class="custom-control-label" for="Monday 32">{{Monday32|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 32" id="Tuesday 32">
+                <label class="custom-control-label" for="Tuesday 32">{{Tuesday32|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 32" id="Wednesday 32">
+                <label class="custom-control-label" for="Wednesday 32">{{Wednesday32|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 32" id="Thursday 32">
+                <label class="custom-control-label" for="Thursday 32">{{Thursday32|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 32" id="Friday 32">
+                <label class="custom-control-label" for="Friday 32">{{Friday32|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 32" id="Saturday 32">
+                <label class="custom-control-label" for="Saturday 32">{{Saturday32|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 8-9pm -->
+          <div class="row">
+            <div class="col">
+              8:00PM - 9:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 33" id="Monday 33">
+                <label class="custom-control-label" for="Monday 33">{{Monday33|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 33" id="Tuesday 33">
+                <label class="custom-control-label" for="Tuesday 33">{{Tuesday33|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 33" id="Wednesday 33">
+                <label class="custom-control-label" for="Wednesday 33">{{Wednesday33|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 33" id="Thursday 33">
+                <label class="custom-control-label" for="Thursday 33">{{Thursday33|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 33" id="Friday 33">
+                <label class="custom-control-label" for="Friday 33">{{Friday33|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 33" id="Saturday 33">
+                <label class="custom-control-label" for="Saturday 33">{{Saturday33|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr class="sep1">
+
+          <!-- Week 2 -->
+
+          <div class="row">
+            <div class="col">
+              Next Week
+            </div>
+            <div class="col">
+              Sunday
+            </div>
+            <div class="col">
+              {{Monday2|safe}}
+            </div>
+            <div class="col">
+              {{Tuesday2|safe}}
+            </div>
+            <div class="col">
+              {{Wednesday2|safe}}
+            </div>
+            <div class="col">
+              {{Thursday2|safe}}
+            </div>
+            <div class="col">
+              {{Friday2|safe}}
+            </div>
+            <div class="col">
+              {{Saturday2|safe}}
+            </div>
+          </div>
+          <hr class="sep1">
+          <!-- 9-10am -->
+
+          <div class="row">
+            <div class="col">
+              9:00AM - 10:00AM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 111" id="Monday 111">
+                <label class="custom-control-label" for="Monday 111">{{Monday111|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 111" id="Tuesday 111">
+                <label class="custom-control-label" for="Tuesday 111">{{Tuesday111|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 111" id="Wednesday 111">
+                <label class="custom-control-label" for="Wednesday 111">{{Wednesday111|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 111" id="Thursday 111">
+                <label class="custom-control-label" for="Thursday 111">{{Thursday111|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 111" id="Friday 111">
+                <label class="custom-control-label" for="Friday 111">{{Friday111|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 111" id="Saturday 111">
+                <label class="custom-control-label" for="Saturday 111">{{Saturday111|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 10-11am -->
+          <div class="row">
+            <div class="col">
+              10:00AM - 11:00AM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 112" id="Monday 112">
+                <label class="custom-control-label" for="Monday 112">{{Monday112|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 112" id="Tuesday 112">
+                <label class="custom-control-label" for="Tuesday 112">{{Tuesday112|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 112" id="Wednesday 112">
+                <label class="custom-control-label" for="Wednesday 112">{{Wednesday112|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 112" id="Thursday 112">
+                <label class="custom-control-label" for="Thursday 112">{{Thursday112|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 112" id="Friday 112">
+                <label class="custom-control-label" for="Friday 112">{{Friday112|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 112" id="Saturday 112">
+                <label class="custom-control-label" for="Saturday 112">{{Saturday112|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 11-12pm -->
+          <div class="row">
+            <div class="col">
+              11:00AM - 12:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 113" id="Monday 113">
+                <label class="custom-control-label" for="Monday 113">{{Monday113|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 113" id="Tuesday 113">
+                <label class="custom-control-label" for="Tuesday 113">{{Tuesday113|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 113" id="Wednesday 113">
+                <label class="custom-control-label" for="Wednesday 113">{{Wednesday113|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 113" id="Thursday 113">
+                <label class="custom-control-label" for="Thursday 113">{{Thursday113|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 113" id="Friday 113">
+                <label class="custom-control-label" for="Friday 113">{{Friday113|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 113" id="Saturday 113">
+                <label class="custom-control-label" for="Saturday 113">{{Saturday113|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr class="sep1">
+
+          <!-- 1-2pm -->
+          <div class="row">
+            <div class="col">
+              1:00PM - 2:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 121" id="Monday 121">
+                <label class="custom-control-label" for="Monday 121">{{Monday121|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 121" id="Tuesday 121">
+                <label class="custom-control-label" for="Tuesday 121">{{Tuesday121|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 121" id="Wednesday 121">
+                <label class="custom-control-label" for="Wednesday 121">{{Wednesday121|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 121" id="Thursday 121">
+                <label class="custom-control-label" for="Thursday 121">{{Thursday121|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 121" id="Friday 121">
+                <label class="custom-control-label" for="Friday 121">{{Friday121|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 121" id="Saturday 121">
+                <label class="custom-control-label" for="Saturday 121">{{Saturday121|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 2-3pm -->
+          <div class="row">
+            <div class="col">
+              2:00PM - 3:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 122" id="Monday 122">
+                <label class="custom-control-label" for="Monday 122">{{Monday122|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 122" id="Tuesday 122">
+                <label class="custom-control-label" for="Tuesday 122">{{Tuesday122|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 122" id="Wednesday 122">
+                <label class="custom-control-label" for="Wednesday 122">{{Wednesday122|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 122" id="Thursday 122">
+                <label class="custom-control-label" for="Thursday 122">{{Thursday122|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 122" id="Friday 122">
+                <label class="custom-control-label" for="Friday 122">{{Friday122|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 122" id="Saturday 122">
+                <label class="custom-control-label" for="Saturday 122">{{Saturday122|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 3-4pm -->
+          <div class="row">
+            <div class="col">
+              3:00PM - 4:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 123" id="Monday 123">
+                <label class="custom-control-label" for="Monday 123">{{Monday123|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 123" id="Tuesday 123">
+                <label class="custom-control-label" for="Tuesday 123">{{Tuesday123|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 123" id="Wednesday 123">
+                <label class="custom-control-label" for="Wednesday 123">{{Wednesday123|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 123" id="Thursday 123">
+                <label class="custom-control-label" for="Thursday 123">{{Thursday123|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 123" id="Friday 123">
+                <label class="custom-control-label" for="Friday 123">{{Friday123|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 123" id="Saturday 123">
+                <label class="custom-control-label" for="Saturday 123">{{Saturday123|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 4-5pm -->
+          <div class="row">
+            <div class="col">
+              4:00PM - 5:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 124" id="Monday 124">
+                <label class="custom-control-label" for="Monday 124">{{Monday124|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 124" id="Tuesday 124">
+                <label class="custom-control-label" for="Tuesday 124">{{Tuesday124|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 124" id="Wednesday 124">
+                <label class="custom-control-label" for="Wednesday 124">{{Wednesday124|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 124" id="Thursday 124">
+                <label class="custom-control-label" for="Thursday 124">{{Thursday124|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 124" id="Friday 124">
+                <label class="custom-control-label" for="Friday 124">{{Friday124|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 124" id="Saturday 124">
+                <label class="custom-control-label" for="Saturday 124">{{Saturday124|safe}}</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6-7pm -->
+          <hr class="sep1">
+          <div class="row">
+            <div class="col">
+              6:00PM - 7:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 131" id="Monday 131">
+                <label class="custom-control-label" for="Monday 131">{{Monday131|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 131" id="Tuesday 131">
+                <label class="custom-control-label" for="Tuesday 131">{{Tuesday131|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 131" id="Wednesday 131">
+                <label class="custom-control-label" for="Wednesday 131">{{Wednesday131|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 131" id="Thursday 131">
+                <label class="custom-control-label" for="Thursday 131">{{Thursday131|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 131" id="Friday 131">
+                <label class="custom-control-label" for="Friday 131">{{Friday131|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 131" id="Saturday 131">
+                <label class="custom-control-label" for="Saturday 131">{{Saturday131|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 7-8pm -->
+          <div class="row">
+            <div class="col">
+              7:00PM - 8:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 132" id="Monday 132">
+                <label class="custom-control-label" for="Monday 132">{{Monday132|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 132" id="Tuesday 132">
+                <label class="custom-control-label" for="Tuesday 132">{{Tuesday132|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 132" id="Wednesday 132">
+                <label class="custom-control-label" for="Wednesday 132">{{Wednesday132|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 132" id="Thursday 132">
+                <label class="custom-control-label" for="Thursday 132">{{Thursday132|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 132" id="Friday 132">
+                <label class="custom-control-label" for="Friday 132">{{Friday132|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 132" id="Saturday 132">
+                <label class="custom-control-label" for="Saturday 132">{{Saturday132|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- 8-9pm -->
+          <div class="row">
+            <div class="col">
+              8:00PM - 9:00PM
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Monday 133" id="Monday 133">
+                <label class="custom-control-label" for="Monday 133">{{Monday133|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Tuesday 133" id="Tuesday 133">
+                <label class="custom-control-label" for="Tuesday 133">{{Tuesday133|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Wednesday 133" id="Wednesday 133">
+                <label class="custom-control-label" for="Wednesday 133">{{Wednesday133|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Thursday 133" id="Thursday 133">
+                <label class="custom-control-label" for="Thursday 133">{{Thursday133|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Friday 133" id="Friday 133">
+                <label class="custom-control-label" for="Friday 133">{{Friday133|safe}}</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" name="calcheck" value="Saturday 133" id="Saturday 133">
+                <label class="custom-control-label" for="Saturday 133">{{Saturday133|safe}}</label>
+              </div>
+            </div>
+          </div>
+          <hr class="sep1">
+
+          <br>
+          <p><input type="submit" value="Submit"></p>
+        </form>
+
+      </div>
+    </div>
+
+  </div>
 </div>

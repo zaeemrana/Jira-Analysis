@@ -1,0 +1,26 @@
+<section class="py-5 bg-image-full" style="background-image: url('./static/images/status_home.jpg'); height: 500px;">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="text-center">
+          <h1 style="color:white">Status of Parts as seen from Jira</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="jumbotron-fluid">
+  <div class="container">
+    <div class="text-center">
+      <form method="POST" action="/statusParts.html">
+        <p><input type="submit" value="Refresh Status"></p>
+      </form>
+      <br>
+      <div class="tableContainer">
+        {{csvTable|safe}}
+      </div>
+
+    </div>
+  </div>
+</div>

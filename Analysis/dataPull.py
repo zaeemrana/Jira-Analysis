@@ -21,16 +21,16 @@ def main():
     projects = jira.projects()
 
     projects = {"Mech2": [10400, "Artemis & Apollo Mechanical Fabrication"] ,"OAMF": [10600,"Odysseus & Ajax Mechanical Fabrication"],"KLMF": [10700,"Kraken & Leviathan Mechanical Fabrication"]}
-
+    proj1 = {"KLMF": [10700,"Kraken & Leviathan Mechanical Fabrication"]}
     # This list contains the project keys for member projects. These projects in jira have no parent so this list helps with logic tracking
     memProj = ['MECH2-134', 'MECH2-93', 'MECH2-84', 'MECH2-33', 'MECH2-32', 'MECH2-27', 'MECH2-26', 'MECH2-25', 'MECH2-24', 'MECH2-23', 'MECH2-22',
                 'MECH2-21', 'MECH2-20', 'MECH2-19', 'MECH2-18', 'MECH2-17', 'MECH2-16', 'MECH2-15', 'MECH2-14', 'MECH2-13', 'MECH2-8', 'MECH2-6',
                 'MECH2-5', 'MECH2-4', 'MECH2-3', 'MECH2-2','OAMF-122', 'OAMF-92', 'OAMF-14', 'OAMF-13', 'OAMF-12', 'OAMF-11', 'OAMF-10', 'OAMF-9',
-                'OAMF-8', 'OAMF-7', 'OAMF-6', 'OAMF-5', 'OAMF-4', 'OAMF-3','KLMF-14', 'KLMF-13', 'KLMF-12', 'KLMF-11', 'KLMF-10', 'KLMF-9', 'KLMF-8',
-                'KLMF-7', 'KLMF-6', 'KLMF-5', 'KLMF-4', 'KLMF-3','KLMF-2', 'KLMF-1']
+                'OAMF-8', 'OAMF-7', 'OAMF-6', 'OAMF-5', 'OAMF-4', 'OAMF-3', 'KLMF-15','KLMF-14', 'KLMF-13', 'KLMF-12', 'KLMF-11', 'KLMF-10', 'KLMF-9', 'KLMF-8',
+                'KLMF-7', 'KLMF-6', 'KLMF-5', 'KLMF-4', 'KLMF-3','KLMF-2', 'KLMF-1', 'KLMF-30', 'KLMF-179']
 
-    for proj in projects:
-        lstIssues =  jira.search_issues('project ='+proj, maxResults = 200)
+    for proj in proj1:
+        lstIssues =  jira.search_issues('project ='+proj, maxResults = 250)
 
         lstOfIssueKeys = [x.key for x in lstIssues]
         lstOfIssueNames = [x.id for x in lstIssues]
@@ -95,11 +95,11 @@ def main():
 
             except Exception as e:
 
-                print(e, issue.fields.summary)
+                print(e, issue.fields.summary, issue.key)
                 lstOfIssuesErrors.append(issue)
         #print([x.key for x in lstOfIssuesErrors])
 
-        gen_info_df = pd.DataFrame(general_df, columns = ['ID', 'Name', 'Summary', 'Parent ID', 'Parent Key', 'Parent Sumamry', 'Project Key', 'Status', 'Assignee Name', 'DisplayName', 'Watchers'])
+        gen_info_df = pd.DataFrame(general_df, columns = ['ID', 'Name', 'Summary', 'Parent ID', 'Parent Key', 'Parent Summary', 'Project Key', 'Status', 'Assignee Name', 'DisplayName', 'Watchers'])
         gen_info_df.to_csv("generalIssue"+proj+".csv" ,index = False)
 
         time_info_df = pd.DataFrame(time_df, columns = ['ID', 'Name', 'Time Spent', 'Aggreagte Time Spent', 'WorkRatio', 'AggregateTimeOriginial', 'original estimate', 'estimate', 'Aggregate progress'])
@@ -108,13 +108,44 @@ def main():
         comments_info_df = pd.DataFrame(comments_df, columns = ['ID', 'Name', 'Author', 'time spent', 'logged at'])
         comments_info_df.to_csv("commentsIssue"+proj+".csv", index=False)
 
-        file = open("issue_example"+proj+".txt", "a+")
+        file = open("issue_example"+proj+".txt", "w+")
 
+        """
+        parsing of current status
+        ++++++++++++++++++++++++++++++++++++++++++++
+        """
 
-        for issue in lstIssues[133:134]:
-            for field_name in issue.raw['fields']:
-                file.write("Field: " + str(field_name) + " Value: "+ str(issue.raw['fields'][field_name]) + "\n")
-        file.close()
+        status = gen_info_df[['ID','Name','Parent Summary','Summary','Status']].set_index('ID')
+
+        status = status.join(time_info_df.set_index('ID'), lsuffix = '_caller', rsuffix= '_other')
+
+        status = status[['Name_caller','Summary', 'Parent Summary','original estimate' ,'Time Spent','Status']]
+
+        lstDescription = []
+        for name in status['Name_caller'].tolist():
+            issue = jira.issue(name)
+            lstDescription.append(issue.fields.description)
+        status['Description'] = lstDescription
+        status['original estimate'] = status['original estimate']/3600
+        status['Time Spent'] = status['Time Spent']/3600
+
+        status.to_csv("status"+proj+".csv", index=False)
+        status.to_csv("../app/static/status"+proj+".csv", index=False)
+        """
+        ==============================================
+        """
+
+        def getStatus():
+            return pd.read_csv("status"+proj+".csv")
+
+        # output to text file for debug purposes
+        debug = True
+        if debug:
+            for issue in lstIssues:
+                for field_name in issue.raw['fields']:
+                    file.write("Field: " + str(field_name) + " Value: "+ str(issue.raw['fields'][field_name]) + "\n")
+                file.write("*"*100 + '\n')
+            file.close()
 
 
 if __name__== "__main__" :

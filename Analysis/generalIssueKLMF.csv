@@ -1,37 +1,106 @@
-ID,Name,Summary,Parent ID,Parent Key,Parent Sumamry,Project Key,Status,Assignee Name,DisplayName,Watchers
-13756,KLMF-67,Leviathan_UHPV_SeaconPanel_KL,13602,KLMF-3,Leviathan UHPV,KLMF,To Do,jb974,Juliette Bendheim,zmr5
-13755,KLMF-66,Leviathan_UHPV_ForeEndCap_KL,13602,KLMF-3,Leviathan UHPV,KLMF,To Do,jb974,Juliette Bendheim,zmr5
-13754,KLMF-65,Leviathan_UHPV_Collar_KL,13602,KLMF-3,Leviathan UHPV,KLMF,To Do,jb974,Juliette Bendheim,zmr5
-13753,KLMF-64,Leviathan_UHPV_AftEndCap_KL,13602,KLMF-3,Leviathan UHPV,KLMF,To Do,jb974,Juliette Bendheim,zmr5
+ID,Name,Summary,Parent ID,Parent Key,Parent Summary,Project Key,Status,Assignee Name,DisplayName,Watchers
+13883,KLMF-193,Hydro_Mount_TopRight_KL,13606,KLMF-7,Kraken Modifications,KLMF,Sanding,alb433,Alvaro Borrell,alb433
+13882,KLMF-192,Hydro_Mount_TopLeft_KL,13606,KLMF-7,Kraken Modifications,KLMF,Manufacturing,alb433,Alvaro Borrell,alb433
+13881,KLMF-191,Hydro_Mount_BottomLeft_KL,13606,KLMF-7,Kraken Modifications,KLMF,Sanding,alb433,Alvaro Borrell,alb433
+13880,KLMF-190,Misc,13603,KLMF-4,Leviathan Frame,KLMF,Designing,Not Assigned,NA,bdj25
+13879,KLMF-189,BatteryPodSoftJawR,13601,KLMF-2,Battery Pods,KLMF,Manufacturing,eay9,Emily Youtt,eay9
+13878,KLMF-188,Test Frame 80/20 Pieces,13869,KLMF-179,Vector Thrust,KLMF,Completed,csc254,Cuyler Crandall,csc254
+13876,KLMF-186,BatteryPodSoftJawL,13601,KLMF-2,Battery Pods,KLMF,Sanding,eay9,Emily Youtt,eay9
+13875,KLMF-185,Valve Enclosure Hull,13609,KLMF-10,Valve Enclosure,KLMF,Sanding,bpm74,Brian McDonagh,csc254
+13874,KLMF-184,Valve Enclosure Lid,13609,KLMF-10,Valve Enclosure,KLMF,Sanding,bpm74,Brian McDonagh,csc254
+13873,KLMF-183,Module Rotor Shaft v1.3 (x2),13869,KLMF-179,Vector Thrust,KLMF,Completed,csc254,Cuyler Crandall,csc254
+13872,KLMF-182,Module Lower Gearbox v1.3,13869,KLMF-179,Vector Thrust,KLMF,Manufacturing,csc254,Cuyler Crandall,csc254
+13871,KLMF-181,Module Upper Gearbox v1.3,13869,KLMF-179,Vector Thrust,KLMF,Manufacturing,csc254,Cuyler Crandall,csc254
+13870,KLMF-180,Hardinge Knurling Adapter,13869,KLMF-179,Vector Thrust,KLMF,Completed,csc254,Cuyler Crandall,csc254
+13869,KLMF-179,Vector Thrust,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,csc254,Cuyler Crandall,csc254
+13868,KLMF-178,Juliette,13700,KLMF-15,Sanding (2020),KLMF,To Do,jb974,Juliette Bendheim,zmr5
+13867,KLMF-177,New Torpedo Projectile,13606,KLMF-7,Kraken Modifications,KLMF,Drawing,alb433,Alvaro Borrell,alb433
+13866,KLMF-176,NEW Torpedo launch tubes,13606,KLMF-7,Kraken Modifications,KLMF,Sanding,alb433,Alvaro Borrell,alb433
+13865,KLMF-175,Hydrophones_Lid_KL,13600,KLMF-1,Hydrophones,KLMF,Sanding,mnm54,Matthew Menis,mnm54
+13864,KLMF-174,2020_KILLSWITCH_SHEET13_ACRYLIC,13610,KLMF-11,Killswitch,KLMF,Drawing,mdl262,Max Li,zmr5
+13863,KLMF-173,2020_KILLSWITCH_SHEET12_SPACER,13610,KLMF-11,Killswitch,KLMF,Drawing,mdl262,Max Li,zmr5
+13862,KLMF-172,2020_KILLSWITCH_SHEET11_FACESEAL,13610,KLMF-11,Killswitch,KLMF,Manufacturing,mdl262,Max Li,zmr5
+13861,KLMF-171,2020_KILLSWITCH_SHEET10_SUPERMOUNT,13610,KLMF-11,Killswitch,KLMF,Sanding,mdl262,Max Li,zmr5
+13860,KLMF-170,2020_KILLSWITCH_SHEET09_LEFT,13610,KLMF-11,Killswitch,KLMF,Manufacturing,mdl262,Max Li,zmr5
+13859,KLMF-169,2020_KILLSWITCH_SHEET08_ARM,13610,KLMF-11,Killswitch,KLMF,Sanding,mdl262,Max Li,zmr5
+13858,KLMF-168,2020_KILLSWITCH_SHEET07_RIGHT,13610,KLMF-11,Killswitch,KLMF,Sanding,mdl262,Max Li,zmr5
+13857,KLMF-167,2020_KILLSWITCH_SHEET06_MOUNT,13610,KLMF-11,Killswitch,KLMF,Sanding,mdl262,Max Li,alb433
+13840,KLMF-150,BatteryPodStandoffs,13603,KLMF-4,Leviathan Frame,KLMF,Manufacturing,bdj25,Bedros Janoyan,zmr5
+13839,KLMF-149,2020_ValveEnclosure_MountingPlate,13603,KLMF-4,Leviathan Frame,KLMF,Anodizing,bdj25,Bedros Janoyan,zmr5
+13838,KLMF-148,2020_UHPV_Plate_Arc,13603,KLMF-4,Leviathan Frame,KLMF,Manufacturing,bdj25,Bedros Janoyan,zmr5
+13837,KLMF-147,2020_Top_Plate_Arc,13603,KLMF-4,Leviathan Frame,KLMF,Manufacturing,bdj25,Bedros Janoyan,zmr5
+13836,KLMF-146,2020_Hydrophones_Mounting_Bracket2,13603,KLMF-4,Leviathan Frame,KLMF,Sanding,bdj25,Bedros Janoyan,zmr5
+13835,KLMF-145,2020_Hydrophones_Mounting_Bracket1,13603,KLMF-4,Leviathan Frame,KLMF,Sanding,bdj25,Bedros Janoyan,zmr5
+13834,KLMF-144,2020_Frame_UHPV_Plate,13603,KLMF-4,Leviathan Frame,KLMF,Sanding,bdj25,Bedros Janoyan,zmr5
+13833,KLMF-143,2020_Frame_Strboard_Outer,13603,KLMF-4,Leviathan Frame,KLMF,Sanding,bdj25,Bedros Janoyan,zmr5
+13832,KLMF-142,2020_Frame_StrBoard_Inner,13603,KLMF-4,Leviathan Frame,KLMF,Sanding,bdj25,Bedros Janoyan,zmr5
+13831,KLMF-141,2020_Frame_Port_Outer,13603,KLMF-4,Leviathan Frame,KLMF,Sanding,bdj25,Bedros Janoyan,zmr5
+13830,KLMF-140,2020_Frame_Port_Inner,13603,KLMF-4,Leviathan Frame,KLMF,Sanding,bdj25,Bedros Janoyan,zmr5
+13829,KLMF-139,2020_Fore_Plate,13603,KLMF-4,Leviathan Frame,KLMF,Sanding,bdj25,Bedros Janoyan,zmr5
+13828,KLMF-138,2020_Aft_Plate,13603,KLMF-4,Leviathan Frame,KLMF,Sanding,bdj25,Bedros Janoyan,zmr5
+13827,KLMF-137,SlidingPlateFrontMount,13604,KLMF-5,Leviathan Racks,KLMF,Sanding,njh84,Nikki Hart,zmr5
+13826,KLMF-136,SlidingPlateBackMount,13604,KLMF-5,Leviathan Racks,KLMF,Sanding,njh84,Nikki Hart,zmr5
+13825,KLMF-135,Sliding Plate,13604,KLMF-5,Leviathan Racks,KLMF,Drawing,njh84,Nikki Hart,zmr5
+13824,KLMF-134,SeaconTower_KL,13604,KLMF-5,Leviathan Racks,KLMF,Sanding,njh84,Nikki Hart,zmr5
+13823,KLMF-133,Mounting Plate,13604,KLMF-5,Leviathan Racks,KLMF,Sanding,njh84,Nikki Hart,zmr5
+13822,KLMF-132,FrontTower_KL,13604,KLMF-5,Leviathan Racks,KLMF,Sanding,njh84,Nikki Hart,zmr5
+13821,KLMF-131,EthernetMounts,13604,KLMF-5,Leviathan Racks,KLMF,Sanding,njh84,Nikki Hart,zmr5
+13820,KLMF-130,Cantilever,13604,KLMF-5,Leviathan Racks,KLMF,Sanding,njh84,Nikki Hart,zmr5
+13819,KLMF-129,BackTower_KL,13604,KLMF-5,Leviathan Racks,KLMF,Sanding,njh84,Nikki Hart,zmr5
+13790,KLMF-100,BatteryPodLid_KL,13601,KLMF-2,Battery Pods,KLMF,Manufacturing,eay9,Emily Youtt,zmr5
+13789,KLMF-99,BatteryPodHandleMachine_KL,13601,KLMF-2,Battery Pods,KLMF,Drawing,eay9,Emily Youtt,zmr5
+13788,KLMF-98,BatteryPodFlange_KL,13601,KLMF-2,Battery Pods,KLMF,Anodizing,eay9,Emily Youtt,zmr5
+13787,KLMF-97,BatteryPodEndcap_KL,13601,KLMF-2,Battery Pods,KLMF,Manufacturing,eay9,Emily Youtt,zmr5
+13786,KLMF-96,BatteryPodCollar_KL,13601,KLMF-2,Battery Pods,KLMF,Anodizing,eay9,Emily Youtt,zmr5
+13785,KLMF-95,BatteryPodBulkhead_KL,13601,KLMF-2,Battery Pods,KLMF,Manufacturing,eay9,Emily Youtt,zmr5
+13784,KLMF-94,BatteryPodAcrylicCircle_KL,13601,KLMF-2,Battery Pods,KLMF,Drawing,eay9,Emily Youtt,zmr5
+13783,KLMF-93,KL_forecam_hull,13605,KLMF-6,Leviathan Cameras,KLMF,Sanding,ddl58,Diane Lee,zmr5
+13782,KLMF-92,KL_forecam_flange,13605,KLMF-6,Leviathan Cameras,KLMF,Manufacturing,ddl58,Diane Lee,zmr5
+13781,KLMF-91,KL_forecam_bulkhead,13605,KLMF-6,Leviathan Cameras,KLMF,Drawing,ddl58,Diane Lee,zmr5
+13780,KLMF-90,KL_forecam_bracket,13605,KLMF-6,Leviathan Cameras,KLMF,Sanding,ddl58,Diane Lee,zmr5
+13779,KLMF-89,KL_downcam_hull,13605,KLMF-6,Leviathan Cameras,KLMF,Manufacturing,ddl58,Diane Lee,zmr5
+13778,KLMF-88,KL_downcam_flange,13605,KLMF-6,Leviathan Cameras,KLMF,Manufacturing,ddl58,Diane Lee,zmr5
+13777,KLMF-87,KL_downcam_endcap,13605,KLMF-6,Leviathan Cameras,KLMF,Manufacturing,ddl58,Diane Lee,zmr5
+13776,KLMF-86,KL_downcam_bracket,13605,KLMF-6,Leviathan Cameras,KLMF,Sanding,ddl58,Diane Lee,zmr5
+13775,KLMF-85,MCBH8 Plug_KL,13600,KLMF-1,Hydrophones,KLMF,Manufacturing,mnm54,Matthew Menis,mnm54
+13774,KLMF-84,Hydro_Collar_AA,13600,KLMF-1,Hydrophones,KLMF,Manufacturing,mnm54,Matthew Menis,zmr5
+13773,KLMF-83,Hydrophones_Hull_KL,13600,KLMF-1,Hydrophones,KLMF,Sanding,mnm54,Matthew Menis,zmr5
+13772,KLMF-82,Collar_Top_AA,13600,KLMF-1,Hydrophones,KLMF,Manufacturing,mnm54,Matthew Menis,zmr5
+13771,KLMF-81,Collar4_KL,13600,KLMF-1,Hydrophones,KLMF,Manufacturing,mnm54,Matthew Menis,zmr5
+13760,KLMF-70,Transmit Leviathan Mounting,13607,KLMF-8,Transmit,KLMF,Sanding,kah289,Kyle Harris,zmr5
+13759,KLMF-69,Transmit Mid-Section,13607,KLMF-8,Transmit,KLMF,Manufacturing,alb433,Alvaro Borrell,zmr5
+13758,KLMF-68,Transmit Cap,13607,KLMF-8,Transmit,KLMF,Sanding,kah289,Kyle Harris,zmr5
+13756,KLMF-67,Leviathan_UHPV_SeaconPanel_KL,13602,KLMF-3,Leviathan UHPV,KLMF,Anodizing,jb974,Juliette Bendheim,zmr5
+13755,KLMF-66,Leviathan_UHPV_ForeEndCap_KL,13602,KLMF-3,Leviathan UHPV,KLMF,Anodizing,jb974,Juliette Bendheim,zmr5
+13754,KLMF-65,Leviathan_UHPV_Collar_KL,13602,KLMF-3,Leviathan UHPV,KLMF,Anodizing,jb974,Juliette Bendheim,zmr5
+13753,KLMF-64,Leviathan_UHPV_AftEndCap_KL,13602,KLMF-3,Leviathan UHPV,KLMF,Anodizing,jb974,Juliette Bendheim,zmr5
 13739,KLMF-50,jiratest,13715,KLMF-30,Jira Test,KLMF,To Do,Not Assigned,NA,zmr5
-13738,KLMF-49,ManipulatorDeploymentSpacers,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
-13737,KLMF-48,ManipulatorDeploymentBushings,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
-13736,KLMF-47,ManipulatorDeploymentPins,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
-13735,KLMF-46,ManipulatorDeploymentMount,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
-13734,KLMF-45,ManipulatorDeploymentLinkage2,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
-13733,KLMF-44,ManipulatorDeploymentLinkage1,13608,KLMF-9,Manipulators Deployment,KLMF,To Do,jph266,Jackson Hardin,jph266
+13738,KLMF-49,ManipulatorDeploymentSpacers,13608,KLMF-9,Manipulators Deployment,KLMF,Drawing,jph266,Jackson Hardin,jph266
+13737,KLMF-48,ManipulatorDeploymentBushings,13608,KLMF-9,Manipulators Deployment,KLMF,Drawing,jph266,Jackson Hardin,jph266
+13736,KLMF-47,ManipulatorDeploymentPins,13608,KLMF-9,Manipulators Deployment,KLMF,Drawing,jph266,Jackson Hardin,jph266
+13735,KLMF-46,ManipulatorDeploymentMount,13608,KLMF-9,Manipulators Deployment,KLMF,Sanding,jph266,Jackson Hardin,jph266
+13734,KLMF-45,ManipulatorDeploymentLinkage2,13608,KLMF-9,Manipulators Deployment,KLMF,Sanding,jph266,Jackson Hardin,jph266
+13733,KLMF-44,ManipulatorDeploymentLinkage1,13608,KLMF-9,Manipulators Deployment,KLMF,Manufacturing,alb433,Alvaro Borrell,jph266
+13715,KLMF-30,Jira Test,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,zmr5,Zaeem Rana,zmr5
 13714,KLMF-29,Max,13700,KLMF-15,Sanding (2020),KLMF,To Do,mdl262,Max Li,zmr5
 13713,KLMF-28,Nikki,13700,KLMF-15,Sanding (2020),KLMF,To Do,njh84,Nikki Hart,zmr5
 13712,KLMF-27,Kyle,13700,KLMF-15,Sanding (2020),KLMF,To Do,kah289,Kyle Harris,zmr5
 13711,KLMF-26,Diane,13700,KLMF-15,Sanding (2020),KLMF,To Do,ddl58,Diane Lee,zmr5
-13710,KLMF-25,Jackson,13700,KLMF-15,Sanding (2020),KLMF,To Do,jph266,Jackson Hardin,zmr5
-13709,KLMF-24,Brian,13700,KLMF-15,Sanding (2020),KLMF,To Do,bpm74,Brian McDonagh,zmr5
 13708,KLMF-23,Bedros,13700,KLMF-15,Sanding (2020),KLMF,To Do,bdj25,Bedros Janoyan,zmr5
 13707,KLMF-22,Matthew,13700,KLMF-15,Sanding (2020),KLMF,To Do,mnm54,Matthew Menis,zmr5
 13706,KLMF-21,Lee,13700,KLMF-15,Sanding (2020),KLMF,To Do,alb433,Alvaro Borrell,zmr5
-13705,KLMF-20,Bryan,13700,KLMF-15,Sanding (2020),KLMF,To Do,bz297,Bryan Zin,zmr5
 13704,KLMF-19,Zaeem,13700,KLMF-15,Sanding (2020),KLMF,To Do,zmr5,Zaeem Rana,zmr5
 13703,KLMF-18,Mrinal,13700,KLMF-15,Sanding (2020),KLMF,To Do,mt779,Mrinal Thomas,zmr5
 13702,KLMF-17,Emily,13700,KLMF-15,Sanding (2020),KLMF,To Do,eay9,Emily Youtt,zmr5
 13701,KLMF-16,Cuyler,13700,KLMF-15,Sanding (2020),KLMF,To Do,csc254,Cuyler Crandall,zmr5
+13700,KLMF-15,Sanding (2020),10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,Not Assigned,NA,zmr5
 13613,KLMF-14,Manipulator,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,Not Assigned,NA,csc254
 13612,KLMF-13,Custom Thrusters,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,mt779,Mrinal Thomas,csc254
-13611,KLMF-12,Vector Thrust,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,csc254,Cuyler Crandall,csc254
 13610,KLMF-11,Killswitch,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,mdl262,Max Li,csc254
 13609,KLMF-10,Valve Enclosure,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,bpm74,Brian McDonagh,csc254
 13608,KLMF-9,Manipulators Deployment,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,jph266,Jackson Hardin,csc254
 13607,KLMF-8,Transmit,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,kah289,Kyle Harris,csc254
-13606,KLMF-7,Kraken Modifications,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,alb433,Alvaro Borrell,csc254
+13606,KLMF-7,Kraken Modifications,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,Drawing,alb433,Alvaro Borrell,csc254
 13605,KLMF-6,Leviathan Cameras,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,ddl58,Diane Lee,csc254
 13604,KLMF-5,Leviathan Racks,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,njh84,Nikki Hart,csc254
 13603,KLMF-4,Leviathan Frame,10700,KLMF,Kraken & Leviathan Mechanical Fabrication,KLMF,To Do,bdj25,Bedros Janoyan,csc254

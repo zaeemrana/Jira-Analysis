@@ -1,10 +1,14 @@
+.idea
 creds.txt
 token.pickle
 tokenDrive.pickle
 credentials.json
 credentialsDrive.json
 AddParts
-
+bootstrap
+images
+*.csv
+*.png
 # Copied from https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 
 # Byte-compiled / optimized / DLL files
