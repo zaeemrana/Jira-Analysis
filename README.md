@@ -4,7 +4,7 @@ Website Dashboard aimed at interfacing with Jira and proving Cornell University 
 to effectively analyze part status.
 
 ### Repository
-This repository doesn't launch the website to the web and is simply a **mirror** of the one hosted on the CUAUV bitbucket account
+This repository doesn't launch the website to the web and is simply a **mirror** of the one hosted on the CUAUV bitbucket account.
 For more details, reach out to Zaeem Rana via zaeemrana@gmail.com.
 
 ### Features
