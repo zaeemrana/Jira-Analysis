@@ -13,7 +13,7 @@ For more details, reach out to Zaeem Rana via zaeemrana@gmail.com.
 * Status of parts currently on Jira
 * Automated jira hour logger for repetitive predefined tasks
 
-NOTE: Prediction of the required number of hours to manufacture a part using its name was simply for exploratory. Thus, the models and code used is not robust
+NOTE: Prediction of the required number of hours to manufacture a part using its name was simply exploratory. Thus, the models and code used is not robust
 
 ### Status of Parts on Jira Page
 ![Alt text](./README_images/status_page.JPG?raw=true "Title")
